@@ -1,6 +1,6 @@
 # gitops-working-group
 
-# Announcing the GitOps Working Group
+## Announcing the GitOps Working Group
 
 On November 19, 2020, Amazon, Codefresh, GitHub, Microsoft, and Weaveworks are announcing the creation of the GitOps Working Group. This will be an open CNCF community project created inside the CNCF [fluxcd GitHub organization](https://github.com/fluxcd/flux) as the initial venue for collaboration and open governance.
 
@@ -26,10 +26,10 @@ Individuals, teams, and organizations who implement GitOps experience many benef
 - Stronger Security Guarantees
 
 ### GitOps Principles
+
 To give participants in the cloud native ecosystem clarity on what GitOps means, and by extension to realize these benefits, the creators of this working group defined these five core GitOps Principles that are at the foundation of GitOps practices.
 
 The Five GitOps Principles are as follows:
-
 
 1. **Declarative Configuration**: All resources managed through a GitOps process must be completely expressed declaratively.
 2. **Version controlled, immutable storage**: Declarative descriptions are stored in a repository that supports immutability, versioning and version history. For example, git.
@@ -50,9 +50,11 @@ The founders of the GitOps Working Group envision the creation of a GitOps Manif
 ### How to Get Involved
 
 With the announcement of the GitOps Working Group the founders would like to invite other companies to join the group and contribute to the community and the adoption of GitOps across the cloud native landscape. There are a few ways you can get involved:
-* Watch or star this repo to see when things change.
-* Attend a working group meeting (schedule coming soon).
-* [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include.
+
+- Watch or star this repo to see when things change.
+- Attend a working group meeting (schedule coming soon).
+- [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include.
+- Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
 
 We'll review all open issues and PRs at our regular working group meeting (schedule coming soon).
 
@@ -60,7 +62,7 @@ We'll review all open issues and PRs at our regular working group meeting (sched
 
 The goal of the GitOps Working Group’s founders is to: firstly, form the group during Q4 of 2020 and secondly, to establish V1 of the GitOps Manifesto by the end of March, 2021. If you are interested in keeping abreast of any new developments, please visit follow this repository.
 
-#### Additional Information
+### Additional Information
 
 Documenting the GitOps principles, and supporting WG GitOps in CNCF App Delivery SIG as an OSS project.
 
