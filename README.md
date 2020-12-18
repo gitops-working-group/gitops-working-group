@@ -67,5 +67,5 @@ The goal of the GitOps Working Group’s founders is to: firstly, form the group
 Documenting the GitOps principles, and supporting WG GitOps in CNCF App Delivery SIG as an OSS project.
 
 Please see [GitOps WG Charter](https://docs.google.com/document/d/11EZfvB2FFI837nMmArnyv-wizsIJvc-4_xdgfoUXF4o/view)
-and [Draft Definition](https://docs.google.com/document/d/1ZgdtI8ck3DWIig5gBnbS20A0cgzBRlOT3Yv-s1b2c54/edit?ts=5fb04318)
+and [Draft Definition](https://docs.google.com/document/d/1ZgdtI8ck3DWIig5gBnbS20A0cgzBRlOT3Yv-s1b2c54/edit)
 for initial details.
