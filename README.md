@@ -8,6 +8,15 @@ The GitOps Working Group’s goal is to provide companies and individuals with t
 
 The group’s initial task will be to deliver a GitOps Manifesto which clearly defines the principles and technical aspects of GitOps. The GitOps Manifesto will be vendor and implementation neutral, and aims to grow a common understanding of GitOps systems based on shared principles, rather than a matter of individual opinion. A second aim is to encourage innovation by clarifying the technical outcomes rather than the code, tests, or organizational elements needed to achieve them.
 
+## Contents
+
+- [GitOps Working Group Mission](./MISSION.md) 
+- [The GitOps Manifesto](./MANIFESTO.md)
+- [GitOps Personas](./PERSONAS.md)
+- [GitOps Glossary](./GLOSSARY.md)
+- [FAQ](./FAQ.md)
+
+
 ### Growing Adoption of GitOps
 
 The creation of the GitOps Working Group was driven by the accelerating adoption of GitOps tools and methodologies by users of services from Amazon, Codefresh, GitHub, Microsoft, Weaveworks, and hundreds of other leading global companies that are adopting GitOps. This, combined with the recommendation by the Cloud Native Computing Foundation (CNCF) [user community to adopt Flux](https://radar.cncf.io/2020-06-continuous-delivery), made it clear that GitOps is fast becoming the methodology of choice for operating modern cloud native infrastructure and applications. The CNCF user community reported that development, DevOps, and operations teams who adopt GitOps tooling and follow best practices experience improvements in productivity, stability, reliability, and security for their cloud native environments.
