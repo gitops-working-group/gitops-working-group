@@ -42,7 +42,7 @@ Firstly, if a defect is perceived in the system's behaviour, it is impossible to
 
 Secondly, if the desired state of a system is not defined outside of the running system itself, how do we handle a failure that occurs whilst we are modifying its state directly? Such failures are extremely common and the likelihood of failure grows algebraically with the number of components in our system. In the failure case, we no longer know what the correct state of our system is. We are left with the option of backing up or system state before a change so that we can restore a known good state if something goes wrong. Such an approach is painful in practice and leads to an aversion to changing the system's state.
 
-Thirdly, verifying the state of system is much easier than verifying its behaviour.
+Thirdly, access control.
 
 <!-- software system is a function curried over its configuration  a function is also data. A software system is a function: f Code, Configuration => Data => output -->
 
@@ -63,7 +63,6 @@ Tool and system agnosticicsm.
 ## Principles
 
 ### The principle of declarative configuration
-
 
 > All systems managed by GitOps are configured declaratively as data and all resources managed through a GitOps process must be expressed declaratively. The sum of configuration data for a system forms the _Desired State_ of a system.
 
@@ -102,7 +101,7 @@ Tool and system agnosticicsm.
 
 
 ## Notes on the GitOps principles
-- Tool and system agnosticicsm.
+- Tool and system agnosticicsm. Even though we say git, it's actually only true when configured in a very particular way.
 - The definition describes the verifiable behaviour of computer systems and their interfaces.  It is not intended as a model for judging human organisational designs and operational practices.
 - It's ok to be pragmatic with implementations - We recognise that few real systems can be “100% GitOps”.  Real world systems have a lifetime measured in years and must interact with many other systems created under alternative paradigms.  As such they involve compromises and workarounds.  
 - lowest turtle isn't declarative, because the real world isn't. We aim for the lowest turtle to be as small as possible (imperative surface area )
@@ -133,17 +132,22 @@ These exclude practices from being defined as "GitOps".
 
 - IaC with shell scripts - Note that this also breaks the intent of IaC
 
-## Model Compatibility
+## GitOps and ...
 
 ### GitOps and IaC
-How the models map to each other if at all
 
-GitOps is a superset of the ideas of Infrastructure as code. 1&2
-
-Law as defined vs law as intended.
+GitOps is a superset of the ideas of Infrastructure as code and build on previosu work done in the filed of IaC. We see IaC as essentially principles 1&2. In practice, many people have taken IaC to mean imperatively defined infrastructure with scripting languages, although we believe it was always the intent of the IaC originator to have this mean Data. this difference between IaC as broadly defined and IaC as intended is why we were stricter with our definition, and this issue with IaC is the reason we created this document, to ensure that the definition of GitOps would not be sybject to the same dilution as a learning from what happend with IaC <!--Law as defined vs law as intended.-->
 
 ### GitOps and DevOps
-How the models map to each other if at all
+
+devops is a set of human practices around ownership of code development and operations. It doesn't talk about software system configuration, although discipline in such practcies is common with practicioners of devops. DevOps and GitOps are compatible, as they relate to different domains. We see GitOps as greatly facilitating the task of devops, and we praise the effort of devops of bringing development tools and practices to operations, and feel thatlike Gitops, as define with a strong background in developer tools, practcies and CS theory is a natural fit for a devops team to adopt.
+
+### GitOps and OODA
+
+- **Observe** - gather info on running system
+- **Orient** - compare to desired state / diff
+- **Decide** - derive a set of remedial actions (maybe nothing, maybe act on system, maybe notify human)
+- **Act** - implement the actions
 
 ### GitOps and Agile
 <!-- Desirable? -->
