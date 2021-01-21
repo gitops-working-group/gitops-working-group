@@ -5,7 +5,7 @@
 
 This document provides a concrete definition of GitOps principles.
 
-The GitOps Principles are vendor and implementation neutral, and aim to provide a common understanding of GitOps systems, to enable a common framework of understanding beyond individual opinion. A second aim is to encourage innovation by clarifying the technical outcomes rather than the code, tests, or organizational elements needed to achieve them.
+The GitOps Principles are vendor and implementation neutral, and aim to provide a common understanding of GitOps systems, to enable a common framework of understanding beyond individual opinion. A second aim is to encourage innovation by clarifying the technical outcomes rather than the code, tests, or organizational elements needed to achieve them. 
 
 ## Table of Content <!-- omit in toc -->
 
@@ -21,14 +21,9 @@ The GitOps Principles are vendor and implementation neutral, and aim to provide 
     - [How much of a system must be declared?](#how-much-of-a-system-must-be-declared)
   - [2. Immutable configuration versions](#2-immutable-configuration-versions)
     - [What forms a version?](#what-forms-a-version)
-    - [Why is it necessary to have versions be immutable and retained indefinitely?](#why-is-it-necessary-to-have-versions-be-immutable-and-retained-indefinitely)
-    - [What are the responsibilities of a State store?](#what-are-the-responsibilities-of-a-state-store)
-    - [State stores as coordination points/ collab via common data interface](#state-stores-as-coordination-points-collab-via-common-data-interface)
   - [3. Continuous state reconciliation](#3-continuous-state-reconciliation)
   - [4. Operations through declaration](#4-operations-through-declaration)
-- [General notes on the GitOps principles](#general-notes-on-the-gitops-principles)
-- [Prior Art](#prior-art)
-- [See also](#see-also)
+- [See Also](#see-also)
 
 ## Summary
 
@@ -38,7 +33,6 @@ When using GitOps, the desired state of a system or subsystem is defined declara
 
 GitOps principles were derived from modern software operations but are rooted in pre-existing and widely adopted best practices. These principles are:
 
-<!-- Cross-link principles here to the longer discussion notes for each below -->
 1. [**The principle of declarative configuration**](#1-declarative-configuration)
 
     A system managed by GitOps must have its _Desired State_ expressed declaritively as data.
@@ -68,6 +62,8 @@ It is impossible to comprehensively outline all the specific practices for manag
 
 However, despite the myriad differences, several important principles emerge that simplify the task of reliably managing and operating _all_ software systems at scale. GitOps attempts to capture some of these principles in a coherent framework.
 The GitOps principles can be applied to managing entire software systems or applied only to parts of larger systems.
+
+See also the [Rationale for GitOps](RATIONALE.md).
 
 ## Scope
 
@@ -161,6 +157,7 @@ Versions should be uniquely named. This need not be a semantically meanigful nam
 
 All versions, except to very first,  should also have reference a predecessor or parent, which is another uniquely named version. This enables us to retain a history of the changes.
 
+<!--
 #### Why is it necessary to have versions be immutable and retained indefinitely?
 
 
@@ -184,34 +181,41 @@ The Desired State of the new version, Who created it, when it was created and id
 - Business rules and security rules about the acceptable state of the system shoudl be checked against any new proposed version of the desired configuration before such changes are accepted as a new version. (Gates before version)
 - where human process is integrated
 - the place where collaboration can be synchronised.
-
+-->
 
 ### 3. Continuous state reconciliation
 
-> Software agents continuously, and automatically, compare a system's _Actual State_ to its _Desired State_.
-> If the actual and desired states differ, automated actions are immediately attempted to reconcile them.
-> These differences could be due to the actual state drifting from the desired state, or the desired state changing intentionally.
+<div style="background: #E3F2FD; border-left: 3px solid #0D47A1; padding:10px; margin-bottom:5px; font-style:italic">
+Software agents continuously, and automatically, compare a system's <em>Actual State</em> to its <em>Desired State</em>.
+If the actual and desired states differ, automated actions are immediately attempted to reconcile them.
+These differences could be due to the actual state drifting from the desired state, or the desired state changing intentionally.
+</div>
 
+<!--
 - If the software agents fail to bring the system's state in line with its desired state, a human operator is notified.
 - Software agents continuously check that the running system under management matches the desired state configuration, and if it does not, immediately either take remedial action to bring the system back in line with stated expectations or, if this cannot be done, alert a human operator that the system is no longer meeting expectations
 - Automated delivery: Delivery of the declarative descriptions, from the repository to runtime environment, is fully automated.
 - Software Agents: Reconcilers maintain system state and apply the resources described in the declarative configuration.
 - Closed loop: Actions are performed on divergence between the version controlled declarative configuration and the actual state of the target system.
-<!-- Please emphasize the following point to aid adoption of GitOps to risk-averse teams (i.e., almost everyone in Enterprise) -->
 - This automation should serve its human users.
   To this point, reconciliation automation for GitOps should include a way for humans to temporarily take back the reins as needed.
 - Implies observability. State of the running system must be observable. Ideally in same format as the configuration so we can compare like to like. 
 - >I agree. I think of this as an observability requirement and tend to say that "the current state of a running system must be observable" to mean the same thing. This is, in my opinion, required for state reconciliation. I didn't add a note there explicitly though, as that section was unfinished.
+-->
 
 
 ### 4. Operations through declaration
 
-> When wishing to operate on a software system, a human or software agent will not interact with the running system and modify it directly.
-> Instead, the agent will create a new declarative version of the desired state in the state store.
-
+<div style="background: #E3F2FD; border-left: 3px solid #0D47A1; padding:10px; margin-bottom:5px; font-style:italic">
+When wishing to operate on a software system, a human or software agent will not interact with the running system and modify it directly.
+Instead, the agent will create a new declarative version of the desired state in the state store.
+</div>
+<!--
 - All normal operations should occur via the creation of a new uniquely named version, not through direct interaction ith the system under management
 - Break glass - exceptions are acceptable and quite likely. and credentials to access and mutate the system must still be available in almost all cases.
+-->
 
+<!--
 ## General notes on the GitOps principles
 
 - Tool and system agnosticicsm.
@@ -237,14 +241,13 @@ The Desired State of the new version, Who created it, when it was created and id
 
 For naming discussion see <https://github.com/gitops-working-group/gitops-working-group/issues/8>
 
-## See also
-
-- [Key Benefits of GitOps](BENEFITS.md)
-- [Rationale](RATIONALE.md)
 - [Common GitOps Practices](PRACTICES.md)
 - [GitOps Compared to Other Practices]()
 - [The GitOps adoption Journey]()
 - [GitOps Patterns]()
-- [Glossary]()
 
+-->
 
+## See Also
+
+- [The GitOps Glossary](GLOSSARY.md)

@@ -1,16 +1,11 @@
 <!-- omit in toc -->
 # GitOps Working Group
 
-- [About GitOps](#about-gitops)
-  - [What is GitOps?](#what-is-gitops)
-  - [Who is GitOps for?](#who-is-gitops-for)
-  - [Growing Adoption of GitOps](#growing-adoption-of-gitops)
-  - [Using GitOps](#using-gitops)
-- [About the Working Group](#about-the-working-group)
-  - [WG Mission](#wg-mission)
-  - [WG Origin](#wg-origin)
-  - [WG Participation](#wg-participation)
-  - [WG Timeline (WIP)](#wg-timeline-wip)
+## GitOps
+
+Gitops is a set of [Principles](PRINCIPLES.md) for operating software systems, which addresses a set of [common issues](Rationale.md) with software operations.
+
+## Announcing the GitOps Working Group
 
 ## About GitOps
 
@@ -30,39 +25,7 @@ GitOps principles were derived from modern software operations but are rooted in
 
 See the full [GitOps Principles](PRINCIPLES.md) and the [Glossary](GLOSSARY.md).
 
-Also compare Gitops with [other methodologies](GITOPS_AND.md).
-
-### Who is GitOps for?
-
-<!-- Short summary here, similar to the above, once we get farther along with these documents. -->
-
-
-Individuals, teams, and organizations who implement GitOps experience many benefits, including:
-
-- Increased Developer & Operational Productivity
-- Enhanced Developer Experience
-- Improved Stability
-- Higher Reliability
-- Consistency and Standardization
-- Stronger Security Guarantees
-
-See [BENEFITS](BENEFITS.md), [USE_CASES](USE_CASES.md) and [PERSONAS](PERSONAS.md)
-
-### Growing Adoption of GitOps
-
-The creation of the GitOps Working Group was driven by the accelerating adoption of GitOps tools and methodologies by users of services from Amazon, Codefresh, GitHub, Microsoft, Weaveworks, and hundreds of other leading global companies that are adopting GitOps.
-This, combined with the recommendation by the Cloud Native Computing Foundation (CNCF) [user community to adopt Flux](https://radar.cncf.io/2020-06-continuous-delivery), made it clear that GitOps is fast becoming the methodology of choice for operating modern cloud native infrastructure and applications.
-The CNCF user community reported that development, DevOps, and operations teams who adopt GitOps tooling and follow best practices experience improvements in productivity, stability, reliability, and security for their cloud native environments.
-
-See [RATIONALE.md](RATIONALE.md)
-
-### Using GitOps
-
-See [CASE_STUDIES.md](CASE_STUDIES.md), [PATTERNS.md](PATTERNS.md), [TOOLS.md](TOOLS.md), and [GITOPS_AND.md](GITOPS_AND.md).
-
-## About the Working Group
-
-### WG Mission
+### An open working group
 
 The GitOps Working Group is a neutral organization of interested parties to clearly define a principle-lead meaning of GitOps, in order to better enable interoperability between tools.
 With a clear definition, GitOps Certification Programs for individuals will also be possible.
