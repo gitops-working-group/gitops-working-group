@@ -4,21 +4,25 @@
 
 ## Summary
 
-Gitops is an operation model for managing software system based a set of defining principles. GitOps principles were derived from modern software operations but are rooted in pre-existing and widely adopted best practices. These principles are:
+Gitops is a set of principles for operating and managing software system.
 
+In essence, the desired state of a system is defined immutably and versioned, and the running system's configuration is continuously derived from this data.
+
+GitOps principles were derived from modern software operations but are rooted in pre-existing and widely adopted best practices. These principles are:
+
+
+<!-- Cross-link principles here to the longer discussion notes for each below -->
 1. **The principle of declarative configuration**
 
-    All systems managed by GitOps are configured declaratively as data and all resources managed through a GitOps process must be expressed declaratively. The sum of configuration data for a system forms the _Desired State_ of a system.
+    A system managed by GitOps must have its _Desired State_ expressed declaritively as data.
 
 2. **The principle of immutable configuration versions**
 
-    The declarative system configuration is stored in a way that supports versioning, immutability of versions, and retains a complete version history. We call systems that store desired state in this way _State Stores_.
+    _Desired State_ is stored in a way that supports versioning, immutability of versions, and retains a complete version history. We call systems that store desired state in this way _State Stores_.
 
 3. **The principle of continuous state reconciliation**
 
-    Software agents continuously, and automatically, compared a system's actual state to its desired state. If the actual state differs from the desired state – which could be because the actual state has drifted from the desired state, or because the desired state has changed – automated actions are immediately attempted to bring the system's state in alignment with the desired state.
-
-    If the software agents fail to bring the system's state in line with its desired state, a human operator is notified.
+    Software agents continuously, and automatically, compare a system's _Actual State_ to its _Desired State_. If the actual and desired states differ, automated actions are immediately attempted to reconcile them. These differences could be due to the actual state drifting from the desired state, or the desired state changing intentionally.
 
 4. **The principle of operations through declaration**
 
@@ -26,21 +30,29 @@ Gitops is an operation model for managing software system based a set of definin
 
 ## Introduction
 
-The software systems that we manage vary widely; from battery powered embedded systems driven by microcontrollers, to globally distributed applications with millions of users. It is impossible to outline specific practices for managing such a variety of systems. However, despite the differences in software systems, several important principles emerge that significantly simplify reliably managing and operating all software systems at scale.
+The software systems that we manage vary widely; from battery powered embedded systems driven by microcontrollers, to globally distributed applications with millions of users. It is impossible to comprehensively outline all the specific practices for managing such a variety of systems. However, despite the differences in software systems, several important principles emerge that significantly simplify reliably managing and operating all software systems at scale.
 
-_Configuration_ is a common feature of most software systems. By Configuration, we mean data that defines how the system will behave and operate. This data is distinct and separate from the data the system will process. For example, the same web server code may be running on thousands of different servers managed by hundreds of different companies. The behaviour of an individual webserver will differ based on how it is configured. 
+<!--
+We've gone back and forth to try to find a really good single-word term for what we mean by "immutable, versioned, declarations of the desired system state". "Configuration" is used below for now, though we understand this may be confusing since the rules that govern the behavior of the system can be much broader than what most software means by "configuration". Good placeholder for now. Bring back to the working group to discuss better terminology.
+-->
+
+_Configuration_ is a common feature of most software systems. By Configuration, we mean data that defines how the system will behave and operate. This data is distinct and separate from the data the system will process. For example, the same web server code may be running on thousands of different servers managed by hundreds of different companies. The behaviour of an individual webserver will differ based on how it is configured.
 
 Configuration is typically in the form of files or arguments to a computer program, but some systems may also currently use configuration databases or remote configuration services.
 
-Configuration also includes data about what version of code a software system should run, so software version information is also considered configuration. Together, the sum of configuration data for a system form its "Desired State".
+Configuration also includes data about what version of code a software system should run, so software version information is also considered configuration. Together, the aggregate of all configuration data for a system form its "Desired State".
 
-Currently, many software system's desired state is not defined separately from the running system. When we desire the behaviour of a software system to change, we modify the system directly, either through human action, or by running scripts that take a set of predetermined action on the system.
+Currently, many software system's desired state is not defined separately from the running system. When we desire the behaviour of a software system to change, we modify the system's configuration directly, either through human action, or by running scripts that take a set of predetermined action on the system.
 
 This leads to several serious issues.
 
-Firstly, if a defect is perceived in the system's behaviour, it is impossible to determine whether the defect is due to the system having entered an incorrect state, or the defect is in our expectations about the system's behaviour. A person may have made incorrect assumption about the state of the system, or two people may have different excpectations about a system's behaviour and what one perceives as an error, may be correct for the other. Making the desired state of a system explicit avoids this issue altogether. As a concrete example, imagine logging into an administration console and seeing that 28 machines are healthily running. Is this good? Is this bad? That very much depends on what the desired number of machines is. For example, these could be test machines that should have been deleted and are now incurring a significant cost for no reasons, or all that remains of a 100 machine datacenter. We could consult the documentation, or expect the human operator to know, but by the time this occurs, our system has been in an incorrect state for a significant period of time.
+Firstly, if a defect is perceived in the system's behaviour, it is impossible to determine whether the defect is due to the system having entered an incorrect state, or the defect is in our expectations about the system's behaviour. A person may have made incorrect assumption about the state of the system, or two people may have different excpectations about a system's behaviour and what one perceives as an error, may be correct for the other.
+
+Making the desired state of a system explicit avoids this issue altogether. As a concrete example, imagine logging into an administration console and seeing that 28 machines are healthily running. Is this good? Is this bad? That very much depends on what the desired number of machines is. For example, these could be test machines that should have been deleted and are now incurring a significant cost for no reasons, or all that remains of a 100 machine datacenter. We could consult the documentation, or expect the human operator to know, but by the time this occurs, our system has been in an incorrect state for a significant period of time.
 
 Secondly, if the desired state of a system is not defined outside of the running system itself, how do we handle a failure that occurs whilst we are modifying its state directly? Such failures are extremely common and the likelihood of failure grows algebraically with the number of components in our system. In the failure case, we no longer know what the correct state of our system is. We are left with the option of backing up or system state before a change so that we can restore a known good state if something goes wrong. Such an approach is painful in practice and leads to an aversion to changing the system's state.
+
+---
 
 Thirdly, access control.
 
@@ -66,6 +78,9 @@ Tool and system agnosticicsm.
 
 > All systems managed by GitOps are configured declaratively as data and all resources managed through a GitOps process must be expressed declaratively. The sum of configuration data for a system forms the _Desired State_ of a system.
 
+- Formal definition of what we mean by "Configuration" is probably warranted here.
+
+- three ideas: 1) declarative data, 2) Desired State 3) system under management can be part of larger systems (apply to subsystem))
 - data > code because verification
 - a format readable by machines and humans 
 - entire system can be recreated from the configuration.
@@ -76,7 +91,7 @@ Tool and system agnosticicsm.
 
 - Desired configuration should be immutably versioned, 
 - only uniquely named new versions of the system configuration can be created and all configuration info is retained 
-- The only exception being in the case of sensitive information leaks due to error. (I would agrue that key rotation is always better option in this case)
+- The only exception being in the case of sensitive information leaks due to error. (I would agrue that key rotation is always better option in this case, but for PII and proprietary info this isn't possible).
 - In addition, state stores must preserve information regarding the identity of agents that create new versions.
 - state store should 
 - Business rules and security rules about the acceptable state of the system shoudl be checked against any new proposed version of the desired configuration before such changes are accepted as a new version. (Gates before version)
@@ -87,16 +102,22 @@ Tool and system agnosticicsm.
 ### The principle of continuous state reconciliation
 
 > Software agents continuously, and automatically, compared a system's actual state to its desired state. If the actual state differs from the desired state – which could be because the actual state has drifted from the desired state, or because the desired state has changed – automated actions are immediately attempted to bring the system's state in alignment with the desired state.
->
-> If the software agents fail to bring the system's state in line with its desired state, a human operator is notified.
 
+
+- If the software agents fail to bring the system's state in line with its desired state, a human operator is notified.
 - Software agents continuously check that the running system under management matches the desired state configuration, and if it does not, immediately either take remedial action to bring the system back in line with stated expectations or, if this cannot be done, alert a human operator that the system is no longer meeting expectations
+- Automated delivery: Delivery of the declarative descriptions, from the repository to runtime environment, is fully automated.
+4. Software Agents: Reconcilers maintain system state and apply the resources described in the declarative configuration.
+5. Closed loop: Actions are performed on divergence between the version controlled declarative configuration and the actual state of the target system.
+<!-- Please emphasize the following point to aid adoption of GitOps to risk-averse teams (i.e., almost everyone in Enterprise) -->
+- This automation should serve it's human users. To this point, reconciliation automation for GitOps should include a way for humans to temporarily take back the reins as needed.
 
 ### The principle of operations through declaration
 
 > When wishing to operate on a software system, a human or software agent will not interact with the running system and modify it directly. Instead, the agent will create a new declarative version of the desired state in the state store.
 
 - All normal operations should occur via the creation of a new uniquely named version, not through direct interaction ith the system under management
+- Break glass - exceptions are acceptable and quite likely. and credentials to access and mutate the system must still be available in almost all cases.
 
 
 
@@ -109,6 +130,8 @@ Tool and system agnosticicsm.
 - Principles 1 and 2 encode concpets that are several decades old. Specifically, we look at the work done around IaC and find that a stricter set of principles is necessary to embody the intent of IaC. For relaible software operations, It's insufficient to have code define the infrastructure, it must instead be data.
 
 - Git as a satte store: - the "state store" can be a subfolder in a particular branch, and repo. Principles only applies to the data used to configure a running system, not other data in the same git repository.
+
+- The human interface can be whatever - GitOps doesn't mean the absence of a rich user experience or restrictions to the CLI
 
 ## Benefits
 
@@ -154,6 +177,10 @@ devops is a set of human practices around ownership of code development and oper
 How the models map to each other if at all
 
 
+
+## adoption
+
+apply to a subcomponent and grow.
 
 
 ## Prior art
