@@ -1,6 +1,6 @@
-**⚠️ THIS DOCUMENT IS A WORK IN PROGRESS AND SUBJECT TO PUBLIC REVIEW BEFORE PUBLICATION.**
-
 # GitOps
+
+## ⚠️ THIS DOCUMENT IS A WORK IN PROGRESS AND SUBJECT TO PUBLIC REVIEW BEFORE PUBLICATION
 
 ## Summary
 
@@ -9,7 +9,6 @@ Gitops is a set of principles for operating and managing software system.
 In essence, the desired state of a system is defined immutably and versioned, and the running system's configuration is continuously derived from this data.
 
 GitOps principles were derived from modern software operations but are rooted in pre-existing and widely adopted best practices. These principles are:
-
 
 <!-- Cross-link principles here to the longer discussion notes for each below -->
 1. **The principle of declarative configuration**
@@ -58,9 +57,8 @@ Thirdly, access control.
 
 <!-- software system is a function curried over its configuration  a function is also data. A software system is a function: f Code, Configuration => Data => output -->
 
-We believe these principles of software operations to be universally applicable, and independent of any particular tool, solution or practice. 
-Modern software operations 
-
+We believe these principles of software operations to be universally applicable, and independent of any particular tool, solution or practice.
+Modern software operations
 
 When using GitOps the desired state of a system is immutably defined in a versioned configuration store, often Git, and tools are used to automatically reconcile operations based on versioned changes to those definitions.
 
@@ -98,17 +96,15 @@ Tool and system agnosticicsm.
 - where human process is integrated
 - changes as transactions
 
-
 ### The principle of continuous state reconciliation
 
 > Software agents continuously, and automatically, compared a system's actual state to its desired state. If the actual state differs from the desired state – which could be because the actual state has drifted from the desired state, or because the desired state has changed – automated actions are immediately attempted to bring the system's state in alignment with the desired state.
 
-
 - If the software agents fail to bring the system's state in line with its desired state, a human operator is notified.
 - Software agents continuously check that the running system under management matches the desired state configuration, and if it does not, immediately either take remedial action to bring the system back in line with stated expectations or, if this cannot be done, alert a human operator that the system is no longer meeting expectations
 - Automated delivery: Delivery of the declarative descriptions, from the repository to runtime environment, is fully automated.
-4. Software Agents: Reconcilers maintain system state and apply the resources described in the declarative configuration.
-5. Closed loop: Actions are performed on divergence between the version controlled declarative configuration and the actual state of the target system.
+- Software Agents: Reconcilers maintain system state and apply the resources described in the declarative configuration.
+- Closed loop: Actions are performed on divergence between the version controlled declarative configuration and the actual state of the target system.
 <!-- Please emphasize the following point to aid adoption of GitOps to risk-averse teams (i.e., almost everyone in Enterprise) -->
 - This automation should serve it's human users. To this point, reconciliation automation for GitOps should include a way for humans to temporarily take back the reins as needed.
 
@@ -119,9 +115,8 @@ Tool and system agnosticicsm.
 - All normal operations should occur via the creation of a new uniquely named version, not through direct interaction ith the system under management
 - Break glass - exceptions are acceptable and quite likely. and credentials to access and mutate the system must still be available in almost all cases.
 
+## Notes on the GitOps Principles
 
-
-## Notes on the GitOps principles
 - Tool and system agnosticicsm. Even though we say git, it's actually only true when configured in a very particular way.
 - The definition describes the verifiable behaviour of computer systems and their interfaces.  It is not intended as a model for judging human organisational designs and operational practices.
 - It's ok to be pragmatic with implementations - We recognise that few real systems can be “100% GitOps”.  Real world systems have a lifetime measured in years and must interact with many other systems created under alternative paradigms.  As such they involve compromises and workarounds.  
@@ -139,10 +134,9 @@ Tool and system agnosticicsm.
 - Rollback for free (or cheap)
 - Easy to statically verify (data vs code)
 
-
 ## Practices
 
-Include referenced example. 
+Include referenced example.
 
 ### Patterns
 
@@ -155,7 +149,7 @@ These exclude practices from being defined as "GitOps".
 
 - IaC with shell scripts - Note that this also breaks the intent of IaC
 
-## GitOps and ...
+## GitOps and …
 
 ### GitOps and IaC
 
@@ -176,27 +170,25 @@ devops is a set of human practices around ownership of code development and oper
 <!-- Desirable? -->
 How the models map to each other if at all
 
-
-
-## adoption
+## Adoption
 
 apply to a subcomponent and grow.
 
+## Prior Art
 
-## Prior art
 - Whitehorse: https://www.zdnet.com/article/microsoft-places-bet-on-whitehorse/
 - IaC
 - Functional-Reactive programming (http://conal.net/papers/icfp97/icfp97.pdf)
 - OODA loop
 
 Manifesto
- -> Glossary
- -> Personas
- -> FAQ
- - -> GitOps Pattern 
-     - -> Implementation on AWS
-     - -> Implementation on Azure
-     - -> Implementation on Metal
 
+- Glossary
+- Personas
+- FAQ
+- GitOps Patterns
+  - Implementation on AWS
+  - Implementation on Azure
+  - Implementation on Metal
 
 For naming discussion see <https://github.com/gitops-working-group/gitops-working-group/issues/8>
