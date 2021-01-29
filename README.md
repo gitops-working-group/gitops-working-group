@@ -7,7 +7,7 @@ The focus of the GitOps WG is to clearly define a vendor-neutral, principle-led 
 ## Contents
 
 - [GitOps Working Group Mission](./MISSION.md)
-- [The GitOps Manifesto](./MANIFESTO.md)
+- [The GitOps Principles](./PRINCIPLES.md)
 - [GitOps Personas](./PERSONAS.md)
 - [GitOps Glossary](./GLOSSARY.md)
 - [FAQ](./FAQ.md)

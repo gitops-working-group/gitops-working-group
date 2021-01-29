@@ -18,3 +18,11 @@ Reconciliation
 
 System under management
 : The system whose state is managed via GitOps.
+
+### Software System
+
+One or more Runtime environments consisting of resources under management
+In each Runtime, management Agents to act on resources according to security policies.
+One or more software Repositories for storing deployable artifacts that may be loaded into the runtime environments, eg. configuration files, code, binaries and packages. 
+One or more Administrators who are responsible for operating the runtime environments ie. installing, starting, stopping and updating software, code, configuration, etc.
+A set of policies controlling access and management of repos, deployment, runtimes.
