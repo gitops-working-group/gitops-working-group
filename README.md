@@ -18,8 +18,9 @@
 
 Gitops is a set of principles for operating and managing software systems.
 
-In essence, the desired state of a system or subsystem is defined declaratively as versioned, immutable data, and the running system's configuration is continuously derived from this data.
+When using GitOps, the desired state of a system or subsystem is defined declaratively as versioned, immutable data, and the running system's configuration is continuously derived from this data.
 
+GitOps builds and iterates on ideas drawn from DevOps and Infrastructure as Code and provides the freedom to choose the tools that you need for your specific use cases.
 GitOps principles were derived from modern software operations but are rooted in pre-existing and widely adopted best practices. These principles are:
 
 1. The principle of declarative configuration
@@ -27,12 +28,14 @@ GitOps principles were derived from modern software operations but are rooted in
 3. The principle of continuous state reconciliation
 4. The principle of operations through declaration
 
-See the full [PRINCIPLES.md](PRINCIPLES.md) and [Glossary](GLOSSARY.md).
+See the full [GitOps Principles](PRINCIPLES.md) and the [Glossary](GLOSSARY.md).
+
+Also compare Gitops with [other methodologies](GITOPS_AND.md).
 
 ### Who is GitOps for?
 
 <!-- Short summary here, similar to the above, once we get farther along with these documents. -->
-GitOps [builds and iterates](https://www.weave.works/blog/gitops-operations-by-pull-request) on ideas drawn from DevOps and Infrastructure as Code that started with [Martin Fowler’s comprehensive Continuous Integration overview](https://martinfowler.com/articles/continuousIntegration.html) and provides the freedom to choose the tools that you need for your specific use cases.
+
 
 Individuals, teams, and organizations who implement GitOps experience many benefits, including:
 
@@ -43,7 +46,7 @@ Individuals, teams, and organizations who implement GitOps experience many benef
 - Consistency and Standardization
 - Stronger Security Guarantees
 
-See [BENEFITS.md](BENEFITS.md), [USE_CASES.md](USE_CASES.md) and [PERSONAS.md](PERSONAS.md)
+See [BENEFITS](BENEFITS.md), [USE_CASES](USE_CASES.md) and [PERSONAS](PERSONAS.md)
 
 ### Growing Adoption of GitOps
 
@@ -55,7 +58,7 @@ See [RATIONALE.md](RATIONALE.md)
 
 ### Using GitOps
 
-See [CASE_STUDIES.md](CASE_STUDIES.md), [PATTERNS.md](PATTERNS.md), [TOOLS.md](TOOLS.md), and [RELATIONSHIP_TO_OTHER_PRACTICES.md](RELATIONSHIP_TO_OTHER_PRACTICES.md).
+See [CASE_STUDIES.md](CASE_STUDIES.md), [PATTERNS.md](PATTERNS.md), [TOOLS.md](TOOLS.md), and [GITOPS_AND.md](GITOPS_AND.md).
 
 ## About the Working Group
 

@@ -9,7 +9,7 @@ In practice, many people have taken IaC to mean imperatively defined infrastruct
 This difference between IaC as broadly defined and IaC as intended is why we were stricter with our definition, and this issue with IaC is the reason we created this document, to ensure that the definition of GitOps would not be sybject to the same dilution as a learning from what happend with IaC <!--Law as defined vs law as intended.-->
 
 Principles 1 and 2 encode concpets that are several decades old.
-  Specifically, we look at the work done around IaC and find that a stricter set of principles is necessary to embody the intent of IaC.
+Specifically, we look at the work done around IaC and find that a stricter set of principles is necessary to embody the intent of IaC.
 
 ### GitOps and DevOps
 
@@ -27,8 +27,8 @@ We see GitOps as greatly facilitating the task of devops, and we praise the effo
 
 ### GitOps and Agile
 <!-- Desirable? -->
-How the models map to each other if at all
+Agile is about development, GitOps about operations. Radically different concerns and domain. 
 
 ### GitOps and Functional Reactive Programming
 
-React
+React. No suprise that flux is a name that crops up in both domains.

@@ -1,6 +1,8 @@
 # Glossary
 
-### Desired state
+- Desired state
+- State Store
+- 
 
 the configuration of a system under management
 
