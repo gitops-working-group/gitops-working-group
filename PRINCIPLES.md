@@ -215,7 +215,22 @@ Instead, the agent will create a new declarative version of the desired state in
 - Break glass - exceptions are acceptable and quite likely. and credentials to access and mutate the system must still be available in almost all cases.
 -->
 
+### 5. Governance through git
+
+<div style="background: #E3F2FD; border-left: 3px solid #0D47A1; padding:10px; margin-bottom:5px; font-style:italic">
+In the complex and adapative socio-technical system in which GitOps is most often applied,  the process and decision making criteria that lead to a desired state, is often as or more important than the state itself.
+</div>
+
 <!--
+- By starting with a desired state it should be possible to go backwards in time to discover:
+
+  - how the state has changed over time
+  - what context was available/discussed at the time of decision making
+  - who agreed to the changed
+
+
+  -->
+
 ## General notes on the GitOps principles
 
 - Tool and system agnosticicsm.
