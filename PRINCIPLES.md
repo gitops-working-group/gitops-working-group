@@ -142,7 +142,7 @@ Likely in parts.
 Should GitOps be applied to the entire sales process including the human processes (without prejudice as to what those processes are)? 
 Whilst such a vision is compelling, a more pragmatic approach is preferrable, otherwise we risk trying to boil the ocean.
 
-Instead, we should focus on subsystems where the Desired State is well defined, implement the GitOps principles there, and grow out to capture more systems from that initial subsystem. This progressive approach to GitOps is elaborated further in [GITOPS-ADOPTION.md](GITOPS-ADOPTION.md).
+Instead, we should focus on subsystems where the Desired State is well defined, implement the GitOps principles there, and grow out to capture more systems from that initial subsystem. This progressive approach to GitOps is elaborated further in [ADOPTING_GITOPS.md](ADOPTING_GITOPS.md).
 
 ### 2. Immutable configuration versions
 
