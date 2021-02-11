@@ -15,13 +15,13 @@ The GitOps Principles are vendor and implementation neutral, and aim to provide 
 - [Scope](#scope)
 - [The GitOps Principles](#the-gitops-principles)
   - [1. Declarative configuration](#1-declarative-configuration)
-    - [What is a system's desired state?](#what-is-a-systems-desired-state)
+    - [What is a system's Desired State?](#what-is-a-systems-desired-state)
     - [Why must the Desired State be declarative data?](#why-must-the-desired-state-be-declarative-data)
     - [Why is human readability required?](#why-is-human-readability-required)
     - [How much of a system must be declared?](#how-much-of-a-system-must-be-declared)
   - [2. Immutable configuration versions](#2-immutable-configuration-versions)
-    - [What forms a 'version'?](#what-forms-a-version)
-    - [Why is it necessary to have versions retained indefinitely?](#why-is-it-necessary-to-have-versions-retained-indefinitely)
+    - [What forms a version?](#what-forms-a-version)
+    - [Why is it necessary to have versions be immutable and retained indefinitely?](#why-is-it-necessary-to-have-versions-be-immutable-and-retained-indefinitely)
     - [What are the responsibilities of a State store?](#what-are-the-responsibilities-of-a-state-store)
     - [State stores as coordination points/ collab via common data interface](#state-stores-as-coordination-points-collab-via-common-data-interface)
   - [3. Continuous state reconciliation](#3-continuous-state-reconciliation)
@@ -87,7 +87,7 @@ A system managed by GitOps must have its <em>Desired State</em> expressed declar
 This declarative data must be in a format writable and readable by both humans and software.
 </div>
 
-#### What is a system's desired state?
+#### What is a system's Desired State?
 
 _Configuration_ is a common feature of most software systems.
 By "Configuration", we mean _data that defines how a system or subsystem will behave and operate_.
@@ -142,7 +142,7 @@ Likely in parts.
 Should GitOps be applied to the entire sales process including the human processes (without prejudice as to what those processes are)? 
 Whilst such a vision is compelling, a more pragmatic approach is preferrable, otherwise we risk trying to boil the ocean.
 
-Instead, we should focus on subsystems where the Desired State is well defined, implement the GitOps principles there, and grow out to capture more systems from that initial subsystem. This progressive approach to GitOps is elaborated further in [ADOPTING_GITOPS.md](ADOPTING_GITOPS.md).
+Instead, we should focus on subsystems where the Desired State is well defined, implement the GitOps principles there, and grow out to capture more systems from that initial subsystem. <!-- This progressive approach to GitOps is elaborated further in [the guide to adopting GitOps.md](ADOPTING_GITOPS.md). -->
 
 ### 2. Immutable configuration versions
 
@@ -151,14 +151,22 @@ Instead, we should focus on subsystems where the Desired State is well defined, 
 We call systems that store Desired State in this way <em>State Stores</em>.
 </div>
 
-#### What forms a 'version'?
+#### What forms a version?
 
-- system as a whole. 
-- Only uniquely named new versions of the system configuration can be created and all configuration info is retained (forward only)
-- - Desired configuration should be immutably versioned
+A version is the Desired State for a system as a whole. It is the canonical form of what we desire the system to be at a point in time.
 
-#### Why is it necessary to have versions retained indefinitely?
+It is insufficient to version part of the Desired State or to version these parts in separate State Stores. Real software systems often have overarching behaviour that is the result of coupling between components. If the Desired State of these components were to change independently, it would be difficult to map a change in observed behaviour of our system to a single change in Desired State. Being able to make this 1:1 mapping is operationally benefitial, as we can then map behavioural issues of our system directly to the changes that occured. The utility of having the entire system defined in a single canonical location grows in proportion to the complexity and internal coupling of the system. A web of references to configuration data located in different locations is undesirable, as it makes understanding the desired state particularly difficult.
 
+Versions should be uniquely named. This need not be a semantically meanigful name. It is sufficient that each new version is attributed a name that identifies it uniquely. Once a new version has been created, it should be immutable. By this we mena that it should be impossible to modify the relationship between a version's unique name and its value of the Desired State. 
+
+All versions, except to very first,  should also have reference a predecessor or parent, which is another uniquely named version. This enables us to retain a history of the changes.
+
+#### Why is it necessary to have versions be immutable and retained indefinitely?
+
+
+
+- only verb is to create a new version.
+This - Only uniquely named new versions of the system configuration can be created and all configuration info is retained (forward only)
 - rollback
 - Audit
 The only exception being in the case of sensitive information leaks due to error.
@@ -166,8 +174,9 @@ The only exception being in the case of sensitive information leaks due to error
 - changes as transactions
 
 #### What are the responsibilities of a State store?
-- In addition, state stores must preserve information regarding the identity of agents that create new versions.
-- What Why, who when. 
+- In addition, state stores must preserve metadata information regarding the identity of agents that create new versions.
+The Desired State of the new version, Who created it, when it was created and ideally, also _why_ it was created. - What Why, who when. 
+
 - Even though we say git, it's actually only true when configured in a very particular way.
 
 #### State stores as coordination points/ collab via common data interface
@@ -230,9 +239,9 @@ For naming discussion see <https://github.com/gitops-working-group/gitops-workin
 
 ## See also
 
-- [Key Benefits of GitOps]()
-- [RATIONALE]()
-- [Common GitOps Practices]()
+- [Key Benefits of GitOps](BENEFITS.md)
+- [Rationale](RATIONALE.md)
+- [Common GitOps Practices](PRACTICES.md)
 - [GitOps Compared to Other Practices]()
 - [The GitOps adoption Journey]()
 - [GitOps Patterns]()
