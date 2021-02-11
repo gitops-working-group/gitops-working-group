@@ -32,7 +32,7 @@ See the full [PRINCIPLES.md](PRINCIPLES.md) and [Glossary](GLOSSARY.md).
 ### Who is GitOps for?
 
 <!-- Short summary here, similar to the above, once we get farther along with these documents. -->
-If you are new to GitOps, [it builds and iterates](https://www.weave.works/blog/gitops-operations-by-pull-request) on ideas drawn from DevOps and Infrastructure as Code that started with [Martin Fowler’s comprehensive Continuous Integration overview](https://martinfowler.com/articles/continuousIntegration.html) and provides the freedom to choose the tools that you need for your specific use cases.
+GitOps [builds and iterates](https://www.weave.works/blog/gitops-operations-by-pull-request) on ideas drawn from DevOps and Infrastructure as Code that started with [Martin Fowler’s comprehensive Continuous Integration overview](https://martinfowler.com/articles/continuousIntegration.html) and provides the freedom to choose the tools that you need for your specific use cases.
 
 Individuals, teams, and organizations who implement GitOps experience many benefits, including:
 
@@ -43,7 +43,7 @@ Individuals, teams, and organizations who implement GitOps experience many benef
 - Consistency and Standardization
 - Stronger Security Guarantees
 
-See [USE_CASES.md](USE_CASES.md) and [PERSONAS.md](PERSONAS.md)
+See [BENEFITS.md](BENEFITS.md), [USE_CASES.md](USE_CASES.md) and [PERSONAS.md](PERSONAS.md)
 
 ### Growing Adoption of GitOps
 
