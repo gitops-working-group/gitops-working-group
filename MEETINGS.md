@@ -5,6 +5,7 @@ Please find meetings of the GitOps Working Group available below. The next meeti
 Proposed next meeting: We need to pick regular monthly cadence to be on CNCF calendar -2nd thursday 6pm GMT
 
 ## Past Meetings
+Thursday, February 11th at 18:00 GMT
 [Video Recording](https://weaveworks.zoom.us/rec/share/OPy5MSMzgIkPX1-PAdhwrnGGa82Lr5BuVpQ1iSK-sbHPph68ML1JNVQXRKlP09bw.bjqDnPKEA2W9D2HG)<br>
 Passcode: fwPy8^fb<br>
 [Meeting Notes:](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/)
