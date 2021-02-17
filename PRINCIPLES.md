@@ -90,7 +90,6 @@ A system managed by GitOps must have its _Desired State_ expressed declaritively
 
 _Configuration_ is a common feature of most software systems.
 By "Configuration", we mean _data that defines how a system or subsystem should behave_.
-This configuration data is distinct and separate from the data a system will process.
 
 For example, the same web server code may be running on thousands of different servers managed by hundreds of different companies.
 The behaviour of an individual webserver will differ based on how it is configured.
