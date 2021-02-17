@@ -21,7 +21,7 @@ This leads to several serious issues:
 
     If we have no record of the desired state of our system, how can we recover from failures that occur in the transition between states? 
     Such transitions are very common lifecycle events, such as upgrades, new features being released or scaling our resources. These are where the majority of hard software defects and transient errors occur.
-    Not only are such failures extremely common, but their likelihood grows algebraically with the number of components in our system.
+    Not only are such failures extremely common, but their likelyhood grows quadratically with the number of components in our system, as they scale not with the number of components, but the number of connections between components, which can also fail independently of components.
     
     When these failures occur, they leave our system in an indeterminate transitional state. Going back to a known good state or forward to a new desired states is difficult, as we don't have a record of what these should be, only lists of instructions
     
