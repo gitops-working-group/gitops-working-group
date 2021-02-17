@@ -56,12 +56,11 @@ GitOps principles were derived from modern software operations but are rooted in
 
 ## Introduction
 
-The systems that we manage vary widely; from battery-powered devices driven by microcontrollers to globally distributed systems with millions and sometimes billions of users. 
+The systems that we manage vary widely; from battery-powered devices driven by microcontrollers to globally distributed systems with millions and sometimes billions of users.
 
-What is common across all systems is the need for human operators to make changes to the running state, it is during change that systems are most at risk of failure. 
+What is common across all systems is the need for human operators to make changes to the running state, it is during change that systems are most at risk of failure.
 
 GitOps is a framework in which all change is applied to a system in a consistent mechanism that both reduces risk and improves the situational awareness of human operators working inside the system.
-
 
 GitOps can be applied to managing large systems or applied only to the smaller sub-system.
 
@@ -69,12 +68,15 @@ See also the [Rationale for GitOps](RATIONALE.md).
 
 ## Scope
 
-GitOps concerns the verifiable behaviour of computer systems and their interfaces.
-Specifically, GitOps is _not_ about human processes, and is not intended as a model for judging human organisational designs and operational practices.
+GitOps concerns the interaction between humans and technical systems, and between technical systems.
+GitOps is not concerned with processes of human decision making or organisation, only how human decisions about technical systems are recorded and applied.
+It is a structured process through which technical systems can be modified reliably.
+
+GitOps is _not_ intended as a model for judging human organisational designs.
 
 The GitOps principles are to be used as guiding principles in the development of modern software and system operations. They do not form a concrete specification.
 
-The GitOps principles are a direction, not a destination. They should be applied pragmatically. For example, whilst desirable to apply them strictly to an entire software systems, they can also be applied loosely to selected parts of larger systems as part of a progressive adoption.
+The GitOps principles are a _direction_, **not** a _destination_. They should be applied pragmatically. For example, whilst desirable to apply them strictly to an entire systems, they can also be applied selectively to sub-systems as part of a progressive adoption.
 
 ## The GitOps Principles
 
