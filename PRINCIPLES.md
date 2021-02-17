@@ -7,7 +7,7 @@ This document provides a concrete definition of GitOps principles.
 
 The GitOps principles governs how humans and technical systems should interact in order to achieve the desired operational outcomes of repeatability, auditability, and visibility.
 
-The GitOps Principles are vendor and implementation neutral, they aim to provide a common framework of understanding regarding software operating softwrae systems.
+The GitOps Principles are vendor and implementation neutral, they aim to provide a common framework of understanding regarding software operations.
 
 ## Table of Content <!-- omit in toc -->
 
