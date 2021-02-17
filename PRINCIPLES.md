@@ -119,7 +119,7 @@ It is also preferrable to use a widely supported language to define the Desired 
 
 #### Why is human readability required?
 
-Operationally, it has been proven time and time again that the canonical Desired State of a system should be human-readable and writable.
+Operationally, it has been proven time and time again that the canonical Desired State of a system should be human-readable and writable. (See _The UNIX Philosophy (1995) by Mike Gancarz_ and _The Pragmatic Programmer (2000) Section 14 "The Power of Plain Text" by Andrew Hunt and David Thomas_)
 
 The Desired State encodes the _intent_ of a system. For example, where internet traffic should be routed. The collection of decisions about a system captured in its Desired State are of particular interest to its human operators. They must be able to directly describe their intent about the state of a system; and similarly, must be able to decipher the intended state of a system from its configuration.
 
