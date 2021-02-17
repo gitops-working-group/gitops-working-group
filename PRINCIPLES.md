@@ -37,8 +37,7 @@ GitOps principles were derived from modern software operations but are rooted in
 
 1. [**The principle of declarative configuration**](#1-declarative-configuration)
 
-    A system managed by GitOps must have its _Desired State_ expressed declaritively as data.
-    This declarative data must be in a format writable and readable by both humans and software.
+    A system managed by GitOps must have its _Desired State_ expressed declaritively as data in a format writable and readable by both humans and machines.
 
 2. [**The principle of immutable configuration versions**](#2-immutable-configuration-versions)
 
@@ -82,8 +81,7 @@ The GitOps principles are a direction, not a destination. They should be applied
 ### 1. Declarative configuration
 
 <div style="background: #E3F2FD; border-left: 3px solid #0D47A1; padding:10px; margin-bottom:5px; font-style:italic">
-A system managed by GitOps must have its <em>Desired State</em> expressed declaritively as data.
-This declarative data must be in a format writable and readable by both humans and software.
+A system managed by GitOps must have its _Desired State_ expressed declaritively as data in a format writable and readable by both humans and machines.
 </div>
 
 #### What is a system's Desired State?
