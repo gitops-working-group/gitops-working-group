@@ -6,7 +6,7 @@
 
 - **State Store**
     
-    A system for storing versioned, immutable Desired States that provides access control and auditing on the changes to the Desired State. Git may be configured as a State Store, but special precautions must be taken.
+    A system for storing versioned, immutable Desired States that provides access control and auditing on the changes to the Desired State. Git may be configured as a State Store, but [special precautions must be taken](recipes/SETTING_UP_GIT.md).
 
 - **Reconciliation**
   
