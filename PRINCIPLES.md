@@ -56,12 +56,14 @@ GitOps principles were derived from modern software operations but are rooted in
 
 ## Introduction
 
-The software systems that we manage vary widely; from battery powered embedded systems driven by microcontrollers, to globally distributed applications with millions of users. 
-Most systems are composed of subsystems themselves made of software.
-It is impossible to comprehensively outline all the specific practices for managing such a variety of systems.
+The systems that we manage vary widely; from battery-powered devices driven by microcontrollers to globally distributed systems with millions and sometimes billions of users. 
 
-However, despite the myriad differences, several important principles emerge that simplify the task of reliably managing and operating _all_ software systems at scale. GitOps attempts to capture some of these principles in a coherent framework.
-The GitOps principles can be applied to managing entire software systems or applied only to parts of larger systems.
+What is common across all systems is the need for human operators to make changes to the running state, it is during change that systems are most at risk of failure. 
+
+GitOps is a framework in which all change is applied to a system in a consistent mechanism that both reduces risk and improves the situational awareness of human operators working inside the system.
+
+
+GitOps can be applied to managing large systems or applied only to the smaller sub-system.
 
 See also the [Rationale for GitOps](RATIONALE.md).
 
