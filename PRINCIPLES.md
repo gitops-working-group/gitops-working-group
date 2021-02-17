@@ -51,8 +51,7 @@ GitOps principles were derived from modern software operations but are rooted in
 
 4. [**The principle of operations through declaration**](#4-operations-through-declaration)
 
-    When wishing to operate on a software system, a human or software agent will not interact with the running system and modify it directly.
-    Instead, the agent will create a new declarative version of the desired state in the state store.
+    The mechanism through which change is applied to a system by either a human operator or another system is through the creation of a new declarative version of the desired state in the state store, not through directly interacting with the running system.
 
 ## Introduction
 
@@ -209,8 +208,7 @@ These differences could be due to the actual state drifting from the desired sta
 ### 4. Operations through declaration
 
 <div style="background: #E3F2FD; border-left: 3px solid #0D47A1; padding:10px; margin-bottom:5px; font-style:italic">
-When wishing to operate on a software system, a human or software agent will not interact with the running system and modify it directly.
-Instead, the agent will create a new declarative version of the desired state in the state store.
+The mechanism through which change is applied to a system by either a human operator or another system is through the creation of a new declarative version of the desired state in the state store, not through directly interacting with the running system.
 </div>
 <!--
 - All normal operations should occur via the creation of a new uniquely named version, not through direct interaction ith the system under management
