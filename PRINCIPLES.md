@@ -5,7 +5,9 @@
 
 This document provides a concrete definition of GitOps principles.
 
-The GitOps Principles are vendor and implementation neutral, and aim to provide a common understanding of GitOps systems, to enable a common framework of understanding beyond individual opinion. A second aim is to encourage innovation by clarifying the technical outcomes rather than the code, tests, or organizational elements needed to achieve them. 
+The GitOps principles governs how humans and technical systems should interact in order to achieve the desired operational outcomes of repeatability, auditability, and visibility.
+
+The GitOps Principles are vendor and implementation neutral, they aim to provide a common framework of understanding regarding software operating softwrae systems.
 
 ## Table of Content <!-- omit in toc -->
 
@@ -133,11 +135,10 @@ Having a human-readable Desired State does not in any way preclude the use of ri
 
 Ideally, all of it; and the entire system can be recreated exclusively from its Desired State.
 
-That said, the definition of a "computer systems" can be quite broad and strays into human processes and systems as well. 
-For example, is a company's sales process a "computer system"? 
-Likely in parts. 
-Should GitOps be applied to the entire sales process including the human processes (without prejudice as to what those processes are)? 
-Whilst such a vision is compelling, a more pragmatic approach is preferrable, otherwise we risk trying to boil the ocean.
+The definition of a _system_ can be quite broad, and may incorporate human as well as programmatic processes.
+For example, is a company's sales process a system?
+Should GitOps be applied to it?
+Although a vision in which the GitOps practices are applied generally to all processes, human or otherwise is compelling, a more pragmatic approach is preferable, to avoid the risk of attempting to "boil the ocean".
 
 Instead, we should focus on subsystems where the Desired State is well defined, implement the GitOps principles there, and grow out to capture more systems from that initial subsystem. <!-- This progressive approach to GitOps is elaborated further in [the guide to adopting GitOps.md](ADOPTING_GITOPS.md). -->
 
@@ -152,7 +153,12 @@ We call systems that store Desired State in this way <em>State Stores</em>.
 
 A version is the Desired State for a system as a whole. It is the canonical form of what we desire the system to be at a point in time.
 
-It is insufficient to version part of the Desired State or to version these parts in separate State Stores. Real software systems often have overarching behaviour that is the result of coupling between components. If the Desired State of these components were to change independently, it would be difficult to map a change in observed behaviour of our system to a single change in Desired State. Being able to make this 1:1 mapping is operationally beneficial, as we can then map behavioural issues of our system directly to the changes that occured. The utility of having the entire system defined in a single canonical location grows in proportion to the complexity and internal coupling of the system. A web of references to configuration data located in different locations is undesirable, as it makes understanding the desired state particularly difficult.
+It is insufficient to version part of the Desired State or to version these parts in separate State Stores.
+In practice, software systems often have overarching behaviour that is the result of coupling between components.
+If the Desired State of these components were to change independently, it would be difficult to map a change in observed behaviour of our system to a single change in Desired State.
+Being able to make this 1:1 mapping is operationally beneficial, as we can then map behavioural issues of our system directly to the changes that occured.
+The utility of having the entire system defined in a single canonical location grows in proportion to the complexity and internal coupling of the system.
+A web of references to configuration data located in different locations is undesirable, as it makes understanding the desired state particularly difficult.
 
 Versions should be uniquely named. This need not be a semantically meaningful name. It is sufficient that each new version is attributed a name that identifies it uniquely. Once a new version has been created, it should be immutable. By this we mean that it should be impossible to modify the relationship between a version's unique name and its value of the Desired State. 
 
