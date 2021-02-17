@@ -86,7 +86,7 @@ This declarative data must be in a format writable and readable by both humans a
 #### What is a system's Desired State?
 
 _Configuration_ is a common feature of most software systems.
-By "Configuration", we mean _data that defines how a system or subsystem will behave and operate_.
+By "Configuration", we mean _data that defines how a system or subsystem should behave_.
 This configuration data is distinct and separate from the data a system will process.
 
 For example, the same web server code may be running on thousands of different servers managed by hundreds of different companies.
@@ -124,7 +124,7 @@ The Desired State encodes the _intent_ of a system. For example, where internet 
 
 This principles not only capture a requirement about the format of the configuration, but also the qualitative readability of configuration _in practice_. For example, a simple YAML or XML file can be easily read, understood and modified by human operators, but experience has taught us that these formats also allow the creation of complex self-referential documents beyond the ability of most humans to interpret. Such complex document would violate this principles, even though the formats are, on the surface, human-readable.
 
-This relative readability also implies that the users are relevant when evaluating whether a system follows this principle. For example, a Desired State defined with a rich grammar of S-Expressions would suite a team of developers with a background in functional programming, but would violate this principle if the majority of the team found the format incomprehensible.
+This relative readability also implies that the users are relevant when evaluating whether a system follows this principle. For example, the Desired State defined with a rich grammar of S-Expressions would suit a team of developers with a background in functional programming but would violate this principle if the majority of the team found the format incomprehensible.
 
 Having a human-readable Desired State does not in any way preclude the use of rich tooling or graphical interfaces that facilitate Desired State generation and interpretation. It only require that the canonical source of truth be human readable and writable plain text.
 
@@ -151,11 +151,11 @@ We call systems that store Desired State in this way <em>State Stores</em>.
 
 A version is the Desired State for a system as a whole. It is the canonical form of what we desire the system to be at a point in time.
 
-It is insufficient to version part of the Desired State or to version these parts in separate State Stores. Real software systems often have overarching behaviour that is the result of coupling between components. If the Desired State of these components were to change independently, it would be difficult to map a change in observed behaviour of our system to a single change in Desired State. Being able to make this 1:1 mapping is operationally benefitial, as we can then map behavioural issues of our system directly to the changes that occured. The utility of having the entire system defined in a single canonical location grows in proportion to the complexity and internal coupling of the system. A web of references to configuration data located in different locations is undesirable, as it makes understanding the desired state particularly difficult.
+It is insufficient to version part of the Desired State or to version these parts in separate State Stores. Real software systems often have overarching behaviour that is the result of coupling between components. If the Desired State of these components were to change independently, it would be difficult to map a change in observed behaviour of our system to a single change in Desired State. Being able to make this 1:1 mapping is operationally beneficial, as we can then map behavioural issues of our system directly to the changes that occured. The utility of having the entire system defined in a single canonical location grows in proportion to the complexity and internal coupling of the system. A web of references to configuration data located in different locations is undesirable, as it makes understanding the desired state particularly difficult.
 
-Versions should be uniquely named. This need not be a semantically meanigful name. It is sufficient that each new version is attributed a name that identifies it uniquely. Once a new version has been created, it should be immutable. By this we mena that it should be impossible to modify the relationship between a version's unique name and its value of the Desired State. 
+Versions should be uniquely named. This need not be a semantically meaningful name. It is sufficient that each new version is attributed a name that identifies it uniquely. Once a new version has been created, it should be immutable. By this we mean that it should be impossible to modify the relationship between a version's unique name and its value of the Desired State. 
 
-All versions, except to very first,  should also have reference a predecessor or parent, which is another uniquely named version. This enables us to retain a history of the changes.
+All but the very first version should reference a predecessor or parent, which is another uniquely named version. This enables us to retain a history of the changes.
 
 <!--
 #### Why is it necessary to have versions be immutable and retained indefinitely?
@@ -227,8 +227,8 @@ Instead, the agent will create a new declarative version of the desired state in
 - lowest turtle isn't declarative, because the real world isn't.
   We aim for the lowest turtle to be as small as possible (imperative surface area )
 
-- Git as a satte store: - the "state store" can be a subfolder in a particular branch, and repo.
-  Principles only applies to the data used to configure a running system, not other data in the same git repository.
+- Git as a state store: - the "state store" can be a subfolder in a particular branch, and repo.
+  Principles only applies to the data used to configure a running system, not other data in the same git repository nor runtime application data.
 
 - The human interface can be whatever - GitOps doesn't mean the absence of a rich user experience or restrictions to the CLI
 
