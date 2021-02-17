@@ -7,7 +7,7 @@ This leads to several serious issues:
 
 - **Detecting drift from desired state**
 
-    If the desired state of a system is not explicitly defined, it is impossible to verify if the system in a correct state. The state of a running system itself does not provide sufficent information to determine its correctness. 
+    If the desired state of a system is not explicitly defined, it is impossible to verify if the system in a correct state. The state of a running system itself does not provide sufficient information to determine its correctness. 
     
     Consider logging into an administration console and seeing that 28 machines are healthily running.
     Is this good? Is this bad? That very much depends on what the desired number of machines is.
@@ -27,7 +27,7 @@ This leads to several serious issues:
     
     We are left with the option of backing up our system state before a change so that we can restore a known good state if something goes wrong.
     This doesn't solve the problem of how to change our system to move to a new desired state. The best we can do is restore and retry. 
-    This becomes extremely common in complex distributed systems, where transient failures are common.
+    This becomes extremely common in complex distributed systems, where transient failures are usual.
     Such an approach is painful in practice and leads to an aversion to changing the system's state.
     
     This problem can be solved by having software agents that continuously converge the system towards a well-defined state. 
@@ -37,7 +37,7 @@ This leads to several serious issues:
     In most cases, we not only require the ability to change a running system safely, but we must also record what was changed, when, by whom, and why and enforce rules about which changes we allow.
     If our systems are changed through direct access, the surface area of the interface to control and monitor can quickly become overwhelmingly large. 
     
-    Access control at different levels, from the network to the application layer must be controlled and audited. A coherent set of access control rules must be applied across varied systems configured in completely different, and sometimes incompatible, ways. 
+    Access control at different levels, from the network to the application layer must be controlled and audited. A coherent set of access control rules must be applied across varied systems configured in completely different, and sometimes incompatible ways. 
     An audit trail may or may not be required for regulatory or governance reasons, but it is such a common requirement of managing software systems that it must be also be addressed.
     
     Having a single source of truth regarding the desired state of our system becomes a ledger of transactions between states and a single point of operation. This leads to a natural place to enforce rules regarding access and to audit changes. 
