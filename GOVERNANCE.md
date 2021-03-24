@@ -98,7 +98,7 @@ Co-chairs:
 - Ensure that meetings and other activities are conducted and progress continues to be made against the project agenda
 - Have GitOps domain knowledge
 - Will engage deeply in the work being done by the working group - that is, the role is not purely administrative. They are, however not responsible for performing all of the work - this is shared across the working group members and expected from those who have volunteered onto various workstreams.
-- When necessary, will coordinate across different working group workstreams.
+- When necessary, will handle human and technical coordination across different working group workstreams.
 
 The working group co-chairs are selected by the members of the working group and are listed in the `CHAIRS` file at the root of this git repository.
 
