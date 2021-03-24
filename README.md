@@ -62,6 +62,7 @@ There are a few ways you can get involved:
 - Attend a [Working Group meeting](./MEETINGS.md).
 - [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include.
 - Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
+- Join the mailing list [cncf-sig-app-delivery@lists.cncf.io](https://lists.cncf.io/g/cncf-sig-app-delivery)
 
 We'll review all open issues and PRs at our regular working group meeting (schedule coming soon).
 
