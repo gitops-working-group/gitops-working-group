@@ -3,16 +3,7 @@
 This document <https://github.com/gitops-working-group/gitops-working-group/blob/main/CONTRIBUTING.md> defines the contribution process for the GitOps Working Group project and community.
 These guidelines apply to all git repositories in the `gitops-working-group` GitHub org, however each repository may specify additional contribution processes.
 
-## Getting Involved
-
-With the announcement of the GitOps Working Group the founders would like to invite other companies to join the group and contribute to the community and the adoption of GitOps across the cloud native landscape.
-There are a few ways you can get involved:
-
-- Watch or star this repo to see when things change.
-- Attend a [Working Group meeting](./MEETINGS.md).
-- Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/) and share how you're using GitOps and any important considerations we should include.
-
-We'll review all open issues and PRs at our regular working group meeting (schedule coming soon).
+For more information on becoming involved in the Working Group in general, see [Getting Involved](https://github.com/gitops-working-group/gitops-working-group/blob/main/README.md#how-to-get-involved).
 
 ### Pull Request Tips - Submitting and Reviewing
 
