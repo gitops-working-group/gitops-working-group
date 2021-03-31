@@ -53,6 +53,9 @@ There are a few ways you can get involved:
 
 The Working Group will review all open issues and PRs at our regular working group meeting (schedule coming soon).
 
+## Code of Conduct
+The GitOps Working Group community adheres to the CNCF Code of Conduct https://github.com/cncf/foundation/blob/master/code-of-conduct.md.
+
 ## Timeline
 
 This timeline is a work in progress.
