@@ -66,3 +66,8 @@ If you are interested in keeping abreast of any new developments, please see [Ho
 | Date TBD | Clearly established governance. For current status, follow [PR #40](https://github.com/gitops-working-group/gitops-working-group/discussions/40). |
 | March 19 - April 16, 2021 | [CFP open](https://docs.google.com/forms/d/e/1FAIpQLSeNahDbiEolx6WZmtxx4L65qmq7pZTX86nQAltq2uC12tCQYg/viewform) for GitOpsCon EU 2021 |
 | May 3, 2021 | GitOpsCon EU 2021. Pre-registration is required. See [Kubecon + CloudNativeCon Co-located events listing](https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/program/colocated-events/#gitops-con) for details. |
+
+## Licenses and Copyright
+
+- Apache 2.0 is required for all git repositories
+- Developer Certificate of Origin (DCO) commit signoff is required for all new contributions
