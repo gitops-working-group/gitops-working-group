@@ -1,15 +1,15 @@
-# OpenGitOps Branding
+# GitOps Working Group Branding
 
-Here you'll find logo assets and a brand styleguide for the OpenGitOps project.
+Here you'll find logo assets and a brand styleguide for the GitOps Working Group project.
 
 Logo creation discussion and consensus : [Github discussion](https://github.com/gitops-working-group/gitops-working-group/discussions/63)
 
 ## Logo
 
 <div align="center">
-<img src="logos/icon/color/opengitops-icon-color.svg" width=400px  /><hr/>
-<img src="logos/stacked/color/opengitops-stacked-color.svg" width=360px  /><hr/>
-<img src="logos/horizontal/color/opengitops-horizontal-color.svg" width=360px  />
+<img src="icon/color/gitopswg-icon-color.svg" width=400px  /><hr/>
+<img src="stacked/color/gitopswg-stacked-color.svg" width=360px  /><hr/>
+<img src="horizontal/color/gitopswg-horizontal-color.svg" width=360px  />
 </div>
 
 
@@ -21,7 +21,7 @@ The branding was created in [Adobe Illustrator](https://www.adobe.com/fr/product
 
 The project typography uses the [Lato](https://fonts.google.com/specimen/Lato) typeface created by Łukasz Dziedzic, which is made available under the Open Font License
 
-![opengitops-styleguide-typography](logos/styleguide/styleguide.svg)
+![opengitops-styleguide-typography](styleguide.svg)
 
 
 The colors should be used sparingly for clean layouts. Here are some example uses // TODO
