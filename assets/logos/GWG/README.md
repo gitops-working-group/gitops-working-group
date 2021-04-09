@@ -15,7 +15,7 @@ Logo creation discussion and consensus : [Github discussion](https://github.com/
 
 ## Source Files
 
-The branding was created in [Adobe Illustrator](https://www.adobe.com/fr/products/illustrator.html), [source files](logos/src) are created in the vector `.ai` format.
+The branding was created in [Adobe Illustrator](https://www.adobe.com/fr/products/illustrator.html), [source files](../src/) are created in the vector `.ai` format.
 
 ## Styleguide
 
