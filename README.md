@@ -4,6 +4,8 @@ The GitOps Working Group is a WG under the CNCF App Delivery SIG.
 
 The focus of the GitOps WG is to clearly define a vendor-neutral, principle-led meaning of GitOps. This will establish a foundation for interoperability between tools, conformance, and certification. Lasting programs, documents, and code are planned to live within the [OpenGitOps](https://github.com/open-gitops) project.
 
+See the [charter](charter.md) for additional info on the group's mission, scope, and alignment with other groups and projects.
+
 ## Growing Adoption of GitOps
 
 The creation of the GitOps Working Group was driven by the accelerating adoption of GitOps tools and methodologies by users of services from Amazon, Codefresh, GitHub, Microsoft, Weaveworks, and hundreds of other leading global companies that are adopting GitOps.
