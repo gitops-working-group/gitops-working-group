@@ -1,6 +1,8 @@
 # GitOps Working Group
 
-![GitOps Working Group logo horizontal color](https://raw.githubusercontent.com/gitops-working-group/gitops-working-group/main/assets/logos/GWG/stacked/color/gitopswg-stacked-color.png)
+<div style="text-align:center">
+<img src="https://raw.githubusercontent.com/gitops-working-group/gitops-working-group/main/assets/logos/GWG/stacked/color/gitopswg-stacked-color.svg" alt="GitOps Working Group logo horizontal color" width="280" style="max-width:100%;">
+<div>
 
 The GitOps Working Group is a WG under the CNCF App Delivery SIG.
 
