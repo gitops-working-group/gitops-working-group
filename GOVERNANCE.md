@@ -54,8 +54,9 @@ Before each election, there will be a call for nominiations on the mailing list.
 Nominations should be sent to the mailing list, and include a brief bio and personal statement describing the candidates qualifications to serve in this capacity.
 Self-nominations are welcome.
 
-Any member may cast a vote.
-To avoid having a single company dominate the election process, at most two votes from maintainers working for the same company will count.
+Members must be listed in the [interested parties](interested-parties.md) document at least one week before any election to have a vote.
+To avoid having a single company dominate the election process, at most two votes from members working for the same company will count.
+Chairs will be elected using Ranked Choice Voting.
 
 Election results will be announced on the mailing list, and current chairs listed in this document will be updated accordingly.
 
