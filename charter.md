@@ -24,6 +24,13 @@ This will establish a foundation for interoperability between tools, conformance
 - Exclude/deprecate specific projects, vendors or approaches to GitOps
 - Promote GitOps over other paradigms or methodologies (i.e. no advocacy or branding)
 
+## Work Products (WIP)
+
+- GitOps definition and terminology document: working draft
+- GitOps methodologies and approaches document
+- GitOps landscape document
+- Working examples for getting started
+
 ## Cloud Native Alignment
 
 The GitOps WG works to enable widespread and successful adoption of the GitOps pattern in cloud-native environments by:
