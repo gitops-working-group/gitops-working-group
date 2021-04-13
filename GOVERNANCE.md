@@ -7,6 +7,7 @@ This document defines the governance process for the GitOps Working Group and co
 Membership is self-declared.
 Apart from following the [Code of Conduct](CODE_OF_CONDUCT.md), there are no special requirements.
 This is an open public working group welcoming anyone who would like to help.
+Feel free to register your interest in the [interested parties](interested-parties.md) document.
 
 ## Roles
 
@@ -46,16 +47,15 @@ Scott Rigby | Weaveworks | @scottrigby
 
 [Chairs](#chairs) will be elected for one year terms and may run for reelection.
 
-Chairs are selected by the members of the working group.
-
 The election process takes place on the CNCF SIG App Delivery [mailing list](cncf-sig-app-delivery@lists.cncf.io ).
 
 Before each election, there will be a call for nominiations on the mailing list.
 Nominations should be sent to the mailing list, and include a brief bio and personal statement describing the candidates qualifications to serve in this capacity.
 Self-nominations are welcome.
 
-Members must be listed in the [interested parties](interested-parties.md) document at least one week before any election to have a vote.
-To avoid having a single company dominate the election process, at most two votes from members working for the same company will count.
+The GitOps WG employs "organization voting" to ensure no single organization can dominate the election process or project.
+Each organization listed in the [interested parties](interested-parties.md) document has one vote.
+Interested parties must be added at least one week before any election to have a vote.
 Chairs will be elected using Ranked Choice Voting.
 
 Election results will be announced on the mailing list, and current chairs listed in this document will be updated accordingly.
