@@ -30,6 +30,7 @@ This will establish a foundation for interoperability between tools, conformance
 - GitOps methodologies and approaches document
 - GitOps landscape document
 - Working examples for getting started
+- OpenGitOps project website
 
 ## Cloud Native Alignment
 

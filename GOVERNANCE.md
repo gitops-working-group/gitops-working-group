@@ -25,6 +25,7 @@ A maximum of one person from any one entity may hold a chair role at any given m
 Responsibilities:
 
 - Primary role of Chairs is governance of the Working Group, who collectively care for the OpenGitOps project
+- Ensure the promotion of continued open involvement for the working group
 - Ensure that meetings and other activities are conducted and progress continues to be made against the project agenda, while also engaging other group members in leadership roles
 - Ensure discussion is extended asynchronously to be inclusive of members who cannot attend a specific meeting time
 - Schedule discussion of proposals that have been submitted
