@@ -29,6 +29,7 @@ This will establish a foundation for interoperability between tools, conformance
 - GitOps definition and terminology document: working draft
 - GitOps methodologies and approaches document
 - GitOps landscape document
+- GitOps community events (e.g., GitOpsCon)
 - Working examples for getting started
 - OpenGitOps project website
 
