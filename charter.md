@@ -13,7 +13,7 @@ This will establish a foundation for interoperability between tools, conformance
 
 - Open governance
 - Project/vendor neutral
-- Create education materials and promote awareness and understanding of GitOps terminology and approaches
+- Promote awareness and understanding of GitOps terminology and approaches by creating education materials, organizing events and supporting practitioners throughout the community
 - Create documents and guidelines for following and implementing GitOps principles
 - Impartial analysis of the benefits and drawbacks of GitOps and its various approaches
 - Maintain a vendor-neutral landscape of GitOps projects/products and solutions
