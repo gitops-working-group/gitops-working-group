@@ -4,7 +4,7 @@ This document defines the governance process for the GitOps Working Group and co
 
 ## Membership
 
-Membership is self-declared.
+While anyone may join and contribute, voting members must be active members of the CNCF.
 Apart from following the [Code of Conduct](CODE_OF_CONDUCT.md), there are no special requirements.
 This is an open public working group welcoming anyone who would like to help.
 Feel free to register your interest in the [interested parties](interested-parties.md) document.
