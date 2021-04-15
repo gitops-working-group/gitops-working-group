@@ -4,8 +4,8 @@ The GitOps Working group typically meets on the second Thursday of each month at
 
 ## Upcoming Meetings
 ### Thursday, April 15th at 18:00 GMT
-- [Video Conference Link](https://zoom.us/my/cncfgitopswg?pwd=aE9FMjR0M1djd3huMlNUMWZXSXpyQT09)
-- Meeting Passcode: `77777`
+- [Video Conference Link](https://zoom.us/j/93779536510?pwd=TEFzbGRzREI3MVlkZmluemVkMEhHdz09)
+- Sign in with a Zoom profile.
 
 ## Past Meetings
 ### Thursday, March 11th at 18:00 GMT
