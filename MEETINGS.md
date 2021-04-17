@@ -8,7 +8,7 @@ See the [Google Doc](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQH
 
 ## Working Group Monthly
 
-- May 13, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.lq3s56hyydm0) ⚠️ Note: May Monthly meeting moved to 3rd Thursday due to KubeCon EU
+- May 13, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.lq3s56hyydm0)
 - April 15, 2021: [recording](https://www.youtube.com/watch?v=c_GqwvP5Wqw&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=5)
 - March 11, 2021: [recording](https://www.youtube.com/watch?v=P5Ib1CubO54&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=4)
 - February 11, 2021: [recording](https://www.youtube.com/watch?v=NilaC6Jhq_8&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=3)
