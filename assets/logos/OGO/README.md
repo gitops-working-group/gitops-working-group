@@ -16,6 +16,7 @@ Logo creation discussion and consensus : [Github discussion](https://github.com/
 ## Source Files
 
 The branding was created in [Adobe Illustrator](https://www.adobe.com/fr/products/illustrator.html), [source files](../src/) are created in the vector `.ai` format.
+
 ## Styleguide
 
 The project typography uses the [Lato](https://fonts.google.com/specimen/Lato) typeface created by Łukasz Dziedzic, which is made available under the Open Font License
