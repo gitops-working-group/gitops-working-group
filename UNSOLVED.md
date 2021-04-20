@@ -22,7 +22,7 @@ Most if not all GitOps implementations are [Open Loops](https://en.wikipedia.org
 
 ## Controlled and safe promotion of changes across environment
 
-Using multiple environments like "Sandbox", "Staging" and "Production" is standard practice. Referencing various environments could be done by using conditionals(`if env = prod...`) and parameterizing (Helm `values.yaml`/Terraform `.tfvars`) or by using different folders/branches to describe different environments.
+Using multiple environments like "Sandbox", "Staging" and "Production" is standard practice. Referencing those environments in an IaC repo could be done by using conditionals(`if env = prod...`) and parameterizing (Helm `values.yaml`/Terraform `.tfvars`) or by using different folders/branches to describe different environments.
 
 The parameters/conditionals approach has safety and timing control issue:
 * Wrong env could be changed with an erroneous conditional or parameter override.
