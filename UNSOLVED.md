@@ -20,7 +20,7 @@ Most if not all GitOps implementations are [Open Loops](https://en.wikipedia.org
 * Most GitOps implementations default to closed loops and provide support for PID loops
 
 
-## Controlled and safe promotion of changes across environment
+## Controlled and safe promotion of changes across environments
 
 Using multiple environments like "Sandbox", "Staging" and "Production" is standard practice. Referencing those environments in an IaC repo could be done by using conditionals(`if env = prod...`) and parameterizing (Helm `values.yaml`/Terraform `.tfvars`) or by using different folders/branches to describe different environments.
 
