@@ -23,5 +23,6 @@ See the [Google Doc](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQH
 
 ## GitOpsCon Committee Meetings
 
+- April 20, 2021: [recording](https://www.youtube.com/watch?v=V0qelLe3Xrs&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=3&ab_channel=CNCFGitOpsWorkingGroup), [chat](meetings/committee-gitopscon/2021-04-20-chat.txt)
 - April 15, 2021: [recording](https://www.youtube.com/watch?v=lwX5MBS1mk8&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=2), [chat](meetings/committee-gitopscon/2021-04-15-chat.txt)
 - April 06, 2021: [recording](https://www.youtube.com/watch?v=qNplG7Rw-YU&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=1), [chat](meetings/committee-gitopscon/2021-04-06-chat.txt)
