@@ -32,7 +32,7 @@ Use the [document outline](https://support.google.com/docs/answer/6367684) to mo
 [Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.qeurskf1lqn)
 
 - April 29, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.zbkxgvwukw7p)
-- April 27, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.59vbiqolw35g)
+- April 27, 2021: Not recorded during speaker scheduling
 - April 22, 2021: Not recorded during CFP review
 - April 21, 2021: Not recorded during CFP review
 - April 20, 2021: [recording](https://www.youtube.com/watch?v=V0qelLe3Xrs&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=3&ab_channel=CNCFGitOpsWorkingGroup), [chat](meetings/committee-gitopscon/2021-04-20-chat.txt)
