@@ -1,6 +1,6 @@
 # Governance
 
-This document defines the governance process for the GitOps Working Group and community.
+This document defines the governance process for the GitOps Working Group and community and OpenGitOps project.
 
 ## Roles
 
