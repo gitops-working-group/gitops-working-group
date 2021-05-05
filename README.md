@@ -47,11 +47,12 @@ The GitOps Working Group is an open group, inviting companies and individuals to
 There are a few ways you can get involved:
 
 - Watch or star this repo to see when things change
-- Attend a [Working Group meeting](./MEETINGS.md)
+- Attend a [Working Group or Committee meeting](./MEETINGS.md)
 - [Open an issue](/../../issues/new) and let us know how you're using GitOps and any important considerations we should include
 - Join `#wg-gitops` on [CNCF Slack](https://slack.cncf.io/)
 - Join the [SIG App Delivery](https://github.com/cncf/sig-app-delivery) mailing list, and watch or participate in topics prefixed with `[gitops-wg]`
 - See [Working Group project boards](https://github.com/orgs/gitops-working-group/projects) for status of work, or for ideas on areas that could use additional participation
+- Volunteer to join [committees](GOVERNANCE.md#committees) and help with projects according to your interest and ability
 
 The Working Group will review all open issues and PRs at our regular working group meeting (schedule coming soon).
 
