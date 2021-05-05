@@ -14,7 +14,7 @@ Note that voting requires additional conditions (see [Elections](#elections)).
 
 Responsibilities:
 
-- Follow the [Code of Conduct](CODE_OF_CONDUCT.md)
+- Must follow the [Code of Conduct](CODE_OF_CONDUCT.md)
 - May not create the impression that they have any authority or formal responsibilities within the GitOps WG other than their explicitly assigned roles
 
 ### Committees
