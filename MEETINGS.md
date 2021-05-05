@@ -1,32 +1,40 @@
-# GitOps Working Group Meetings
-The GitOps Working group typically meets on the second Thursday of each month at 18:00 GMT - this meeting can be found in the [CNCF calendar](https://www.cncf.io/calendar/).
-[Meeting Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/)
+# Meetings
 
-## Upcoming Meetings
-### Thursday, April 15th at 18:00 GMT
-- [Video Conference Link](https://zoom.us/my/cncfgitopswg?pwd=aE9FMjR0M1djd3huMlNUMWZXSXpyQT09)
-- Meeting Passcode: `77777`
+The GitOps Working Group typically meets on the second Thursday of each month at 18:00 GMT, and are listed below. This meeting is also on the [CNCF calendar](https://www.cncf.io/calendar/).
 
-## Past Meetings
-### Thursday, March 11th at 18:00 GMT
+Additionally Working Group Committees meet as needed to complete their projects, and are also listed below.
 
-- [Video Recording](https://zoom.us/rec/share/SYMUyXzmVF4eLmO9d2N3AOQ3ror5cJo361pnz_PtxUnDMio0vXRd-qpjqMHPnGeo.J_6sc5Mv8IIKi9jr?startTime=1615486031000)
-- [Meeting Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/)
+See the [Google Doc](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/) for detailed join info, agenda, and notes for all GitOps Working Group meetings.
+Use the [document outline](https://support.google.com/docs/answer/6367684) to more easily jump to each meeting in the doc.
 
-### Thursday, February 11th at 18:00 GMT
+## Working Group Monthly
 
-- [Video Recording](https://weaveworks.zoom.us/rec/share/OPy5MSMzgIkPX1-PAdhwrnGGa82Lr5BuVpQ1iSK-sbHPph68ML1JNVQXRKlP09bw.bjqDnPKEA2W9D2HG)
-- Passcode: `fwPy8^fb`
-- [Meeting Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/)
+[Group meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.94vl69f1t8ph)
 
-### Thursday, January 14th at 17:00 GMT
+- May 13, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.lq3s56hyydm0)
+- April 15, 2021: [recording](https://www.youtube.com/watch?v=c_GqwvP5Wqw&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=5), [chat](meetings/monthly/2021-04-15-chat.txt)
+- March 11, 2021: [recording](https://www.youtube.com/watch?v=P5Ib1CubO54&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=4), [chat](meetings/monthly/2021-03-11-chat.txt)
+- February 11, 2021: [recording](https://www.youtube.com/watch?v=NilaC6Jhq_8&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=3), [chat](meetings/monthly/2021-02-11-chat.txt)
+- January 14, 2021: [recording](https://www.youtube.com/watch?v=JypiRn8HTbw&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=2), [chat](meetings/monthly/2021-01-14-chat.txt)
+- December 10, 2020: [recording](https://www.youtube.com/watch?v=LnzIE6tDfbQ&list=PLXOML2VBdIo4-biBmCbfNkP0ywF0f5mau&index=1), [chat](meetings/monthly/2020-12-10-chat.txt)
 
-- [Video Recording](https://weaveworks.zoom.us/rec/share/_qrMRze16IHb2d4KIOHSa2Wxb_XzbU41-ZH6YZI5aJkUqOHM1bBQLCQhkFva5xo0.ay0LdxTVPCTlgbSd)<br>
-- Passcode: `EpQ26^cV`
-- [Meeting Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/)
+## GitOps Principles Committee Meetings
 
-### Thursday, December 10th at 17:00 GMT
+[Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.kr2ebmvnmiq7)
 
-- [Video Recording](https://weaveworks.zoom.us/rec/share/jyagKQsL7irvi1pF-RHzrrwH-Sqa59wNnBK0F2H8QYBo_rxJZOXMO-5j5CwUgKiK.9cl0var5BN-z0qrI)<br>
-- Passcode: `%mi$&f8e`
-- [Meeting Notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/)
+- April 28, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.fka0qz5oay6e)
+- April 14, 2021: [recording](https://www.youtube.com/watch?v=zWxAZuHNGYM&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=3), [chat](meetings/committee-principles/2021-04-14-chat.txt)
+- April 05, 2021: [recording](https://www.youtube.com/watch?v=SGcSRTWnT3k&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=2), [chat](meetings/committee-principles/2021-04-05-chat.txt)
+- March 29, 2021: [recording](https://www.youtube.com/watch?v=2VpbWrKjDkQ&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=1), [chat](meetings/committee-principles/2021-03-29-chat.txt)
+
+## GitOpsCon Committee Meetings
+
+[Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.qeurskf1lqn)
+
+- April 29, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.zbkxgvwukw7p)
+- April 27, 2021: Not recorded during speaker scheduling
+- April 22, 2021: Not recorded during CFP review
+- April 21, 2021: Not recorded during CFP review
+- April 20, 2021: [recording](https://www.youtube.com/watch?v=V0qelLe3Xrs&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=3&ab_channel=CNCFGitOpsWorkingGroup), [chat](meetings/committee-gitopscon/2021-04-20-chat.txt)
+- April 15, 2021: [recording](https://www.youtube.com/watch?v=lwX5MBS1mk8&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=2), [chat](meetings/committee-gitopscon/2021-04-15-chat.txt)
+- April 06, 2021: [recording](https://www.youtube.com/watch?v=qNplG7Rw-YU&list=PLXOML2VBdIo47l-Kr0LpZFNbZcL97tnex&index=1), [chat](meetings/committee-gitopscon/2021-04-06-chat.txt)
