@@ -22,6 +22,7 @@ Use the [document outline](https://support.google.com/docs/answer/6367684) to mo
 
 [Committee meeting notes](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.kr2ebmvnmiq7)
 
+- May 12, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.i3p0vl1o0vv)
 - May 5, 2021: [join link and agenda](https://docs.google.com/document/d/1hxifmCdOV5_FbKloDJRWZQHq0ge-trXJKF-BgV4wHVk/edit#heading=h.fka0qz5oay6e)
 - April 28, 2021: [recording](https://www.youtube.com/watch?v=Djr8M8kLTXg&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=5&ab_channel=CNCFGitOpsWorkingGroup), [chat](meetings/committee-principles/2021-04-28-chat.txt)
 - April 14, 2021: [recording](https://www.youtube.com/watch?v=zWxAZuHNGYM&list=PLXOML2VBdIo6XfUTaIbanBN2fIDEyR25s&index=3), [chat](meetings/committee-principles/2021-04-14-chat.txt)
