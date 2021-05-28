@@ -80,9 +80,9 @@ The GitHub `@gitops-working-group/chairs` team will be kept up to date with curr
 
 The election process takes place on the CNCF SIG App Delivery [mailing list](cncf-sig-app-delivery@lists.cncf.io ).
 
-Before each election, there will be a call for nominiations on the mailing list.
-Nominations should be sent to the mailing list, and include a brief bio and personal statement describing the candidates qualifications to serve in this capacity.
-Self-nominations are welcome.
+Before each election, there will be a call for nominations on the mailing list.
+Nominations should be sent to the mailing list, and include a brief bio and personal statement describing the candidate's qualifications to serve in this capacity.
+Self-nominations are welcome. Only existing maintainers are eligible for nomination.
 
 The GitOps WG employs "organization voting" to ensure no single organization can dominate the election process or project.
 Up to two individuals from organizations who are both active members of the CNCF and listed in the [interested parties](interested-parties.md) may vote.
