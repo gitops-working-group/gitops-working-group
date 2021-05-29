@@ -130,6 +130,7 @@ If a vote is called, the default is a Simple Majority Vote <https://en.wikipedia
 
 If a vote is called, the following decisions require a Supermajority Vote <https://en.wikipedia.org/wiki/Supermajority>.
 
+- Maintainers: Adding additional maintainers.
 - Chairs: Enforcing a Code of Conduct violation by a community member.
 - Chairs: Licensing and intellectual property changes.
 - Chairs: Material changes to the Governance document.
