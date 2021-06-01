@@ -7,14 +7,8 @@ The focus of the GitOps WG is to clearly define a vendor-neutral, principle-led 
 ## Growing Adoption of GitOps
 
 The creation of the GitOps Working Group was driven by the accelerating adoption of GitOps tools and methodologies by users of hundreds of leading global companies that are adopting GitOps.
-
-This, combined with the
-[CNCF End User Technology Radar]((https://radar.cncf.io/2020-06-continuous-delivery)) report by
-the [CNCF user community](https://www.cncf.io/people/end-user-community/) reported that development,
-DevOps, and operations teams who adopt GitOps
-tooling and follow best practices experience
-improvements in productivity, stability, reliability,
-and security for their cloud native environments.
+Additionally, the [CNCF End User Technology Radar on Continuous Delivery](https://radar.cncf.io/2020-06-continuous-delivery) made it clear that GitOps is fast becoming the methodology of choice for operating modern cloud native infrastructure and applications.
+The CNCF user community reported that development, DevOps, and operations teams who adopt GitOps tooling and follow best practices experience improvements in productivity, stability, reliability, and security for their cloud native environments.
 
 ## The What and Why of GitOps
 
