@@ -4,6 +4,7 @@ Organization | Person
 -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
+Amazon | Cornelia Davis
 AppCtl | Yuce Sungur
 Argo Project (individual) | Jann Fischer
 Atos | Sunil Sukumaran
@@ -90,7 +91,6 @@ Verifa | Jacob Larfors
 Vmware | Dmitriy Kalinin
 VMware | Garry Ing
 Weaveworks | Alexis Richardson
-Weaveworks | Cornelia Davis
 Weaveworks | Daniel Lizio-Katzen
 Weaveworks | Brice Fernandes
 Weaveworks | Scott Rigby
