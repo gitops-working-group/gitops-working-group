@@ -11,8 +11,8 @@ See the [charter](charter.md) for additional info on the group's mission, scope,
 
 ## Growing Adoption of GitOps
 
-The creation of the GitOps Working Group was driven by the accelerating adoption of GitOps tools and methodologies by users of services from Amazon, Codefresh, GitHub, Microsoft, Weaveworks, and hundreds of other leading global companies that are adopting GitOps.
-This, combined with the recommendation by the Cloud Native Computing Foundation (CNCF) [user community to adopt Flux](https://radar.cncf.io/2020-06-continuous-delivery), made it clear that GitOps is fast becoming the methodology of choice for operating modern cloud native infrastructure and applications.
+The creation of the GitOps Working Group is driven by the accelerating adoption of GitOps tools and methodologies by users of services from Amazon, Codefresh, GitHub, Microsoft, Weaveworks, and hundreds of other leading global companies that are adopting GitOps.
+This, combined with the recommendation by the Cloud Native Computing Foundation (CNCF) user community to adopt [Flux](https://radar.cncf.io/2020-06-continuous-delivery) and [Argo CD](https://radar.cncf.io/2021-09-devsecops), makes it clear that GitOps is fast becoming the methodology of choice for operating modern cloud native infrastructure and applications.
 The CNCF user community reported that development, DevOps, and operations teams who adopt GitOps tooling and follow best practices experience improvements in productivity, stability, reliability, and security for their cloud native environments.
 
 ## The What and Why of GitOps
