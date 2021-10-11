@@ -10,6 +10,7 @@ Atos | Sunil Sukumaran
 Avanade/Accenture | Steve Buchanan
 AWS | David Killmon
 BBC | Kieran O’Hara
+BestBuy | Tahir Raza
 Billie GmbH | Khanh Ngo
 Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
