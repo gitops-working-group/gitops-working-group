@@ -58,6 +58,8 @@ Mambu | Adrian Mârza
 MayaData | Uma Mukkara
 MayaData | Karthik S
 Microsoft | Chris Sanders
+Morgan Stanley | Erick Bourgeois
+Morgan Stanley | Graeme Hay
 Morgan Stanley | Yash Gandhi
 Morgan Stanley | Dave Reeve
 Octo Technology | Nabil Belakbir
