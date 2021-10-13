@@ -11,6 +11,7 @@ Avanade/Accenture | Steve Buchanan
 AWS | David Killmon
 BBC | Kieran O’Hara
 Billie GmbH | Khanh Ngo
+BlackRock (individual) | Ryan Umstead
 Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
