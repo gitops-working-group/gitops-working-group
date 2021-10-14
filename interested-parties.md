@@ -1,8 +1,8 @@
 # Interested Parties
 
-Organization | Person
--- | --
-Aivitex | Lothar Schulz
+Organization | Person | GitHub Username
+-- | -- | --
+Aivitex | Lothar Schulz 
 Alibaba | Lei Zhang
 AppCtl | Yuce Sungur
 Argo Project (individual) | Jann Fischer
@@ -11,7 +11,7 @@ Avanade/Accenture | Steve Buchanan
 AWS | David Killmon
 BBC | Kieran O’Hara
 Billie GmbH | Khanh Ngo
-BlackRock (individual) | Ryan Umstead
+BlackRock (individual) | Ryan Umstead | rumstead
 Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
