@@ -2,7 +2,7 @@
 
 Organization | Person | GitHub Username
 -- | -- | --
-Aivitex | Lothar Schulz 
+Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
 AppCtl | Yuce Sungur
 Argo Project (individual) | Jann Fischer
