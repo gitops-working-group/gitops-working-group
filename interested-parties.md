@@ -51,6 +51,7 @@ Intuit | Alexander Matyushentsev
 Intuit | Mukulika Kapas
 Intuit | Hong Wang
 Intuit | Jesse Suen
+Kubermatic | Waleed Malik
 Liquid Reply | Max Körbächer
 Mambu | Liviu Costea
 Mambu | Wojtek Burakiewicz
