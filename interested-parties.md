@@ -1,7 +1,7 @@
 # Interested Parties
 
-Organization | Person
--- | --
+Organization | Person | GitHub Username
+-- | -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
 AppCtl | Yuce Sungur
@@ -51,7 +51,7 @@ Intuit | Alexander Matyushentsev
 Intuit | Mukulika Kapas
 Intuit | Hong Wang
 Intuit | Jesse Suen
-Kubermatic | Waleed Malik
+Kubermatic | Waleed Malik | ahmedwaleedmalik
 Liquid Reply | Max Körbächer
 Mambu | Liviu Costea
 Mambu | Wojtek Burakiewicz
