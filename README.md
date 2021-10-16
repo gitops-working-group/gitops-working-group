@@ -21,7 +21,7 @@ See releases here: <https://github.com/open-gitops/documents/releases>
 - Slack: `#wg-gitops` in [CNCF workspace](https://slack.cncf.io/)
 - Mailing list: <https://lists.cncf.io/g/cncf-tag-app-delivery/topics>. Watch or participate in topics prefixed with `[gitops-wg]`
 - Attend a [Working Group or Committee meeting](#meetings)
-- Volunteer: <https://github.com/open-gitops/project/blob/main/GOVERNANCE.md#committees>. Help with projects according to your interest and ability
+- Volunteer: <https://github.com/gitops-working-group/gitops-working-group/blob/main/GOVERNANCE.md#committees>. Help with projects according to your interest and ability
 - GitOps Subreddit: <https://www.reddit.com/r/GitOps/>
 - Twitter: <https://twitter.com/gitopswg>
 - Express your interest: [interested-parties.md](./interested-parties.md)
@@ -43,5 +43,5 @@ See releases here: <https://github.com/open-gitops/documents/releases>
 | November 19, 2020 | Amazon, Codefresh, GitHub, Microsoft, and Weaveworks announced the creation of the GitOps Working Group. |
 | Q4 of 2020 | Form the group. Provisional governance bootstrapped. For details, see the initial [GitOps WG Charter](https://docs.google.com/document/d/11EZfvB2FFI837nMmArnyv-wizsIJvc-4_xdgfoUXF4o/view). |
 | March 19, 2021 | GitOps WG reached public consensus on naming [OpenGitOps](https://github.com/open-gitops/project) CNCF project |
-| Mid April, 2021 | Clearly established WG and OpenGitOps [governance](https://github.com/open-gitops/project/blob/main/GOVERNANCE.md). |
+| Mid April, 2021 | Clearly established WG and OpenGitOps [governance](https://github.com/gitops-working-group/gitops-working-group/blob/main/GOVERNANCE.md). |
 | Late Sept 2021 | Relocating files from [gitops-working-group/gitops-working-group](https://github.com/gitops-working-group/gitops-working-group) GitHub repo to [cncf/tag-app-delivery](https://github.com/cncf/tag-app-delivery) repo and [open-gitops](https://github.com/open-gitops) org |
