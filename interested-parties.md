@@ -1,7 +1,7 @@
 # Interested Parties
 
-Organization | Person
--- | --
+Organization | Person | GitHub Username
+-- | -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
 AppCtl | Yuce Sungur
@@ -15,7 +15,7 @@ Cerence | Hatice Ozguven
 Cloud Native Architects & Qwinix | Leonardo Murillo
 CNCF | Katie Gamanji
 Codefresh | Dan Garfield
-comforte AG | Piotr Zaniewski (Piotr1215)
+comforte AG | Piotr Zaniewski | Piotr1215
 Contino | Jaroslav Pantsjoha
 Contino | Deepak Vensi
 Contino | Josh Armitage
