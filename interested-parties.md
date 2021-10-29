@@ -35,6 +35,7 @@ Finch | Mark Beacom
 GitHub | Chris Patterson
 GitLab | William Chia
 GitLab | Viktor Nagy
+GitLab | Abuabkar Siddiq Ango (@abuango)
 HashiCorp | Taylor Dolezal
 Hobsons | Fahad Arshad
 Hobsons | Matthew Caya
