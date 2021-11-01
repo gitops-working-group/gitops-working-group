@@ -1,7 +1,7 @@
 # Interested Parties
 
-Organization | Person
--- | --
+Organization | Person | GitHub Username 
+-- | -- | --
 Aivitex | Lothar Schulz
 Alibaba | Lei Zhang
 AppCtl | Yuce Sungur
