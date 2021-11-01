@@ -21,7 +21,7 @@ See releases here: <https://github.com/open-gitops/documents/releases>
 - Slack: `#wg-gitops` in [CNCF workspace](https://slack.cncf.io/)
 - Mailing list: <https://lists.cncf.io/g/cncf-tag-app-delivery/topics>. Watch or participate in topics prefixed with `[gitops-wg]`
 - Attend a [Working Group or Committee meeting](#meetings)
-- Volunteer: <https://github.com/open-gitops/project/blob/main/GOVERNANCE.md#committees>. Help with projects according to your interest and ability
+- Volunteer: <https://github.com/gitops-working-group/gitops-working-group/blob/main/GOVERNANCE.md#committees>. Help with projects according to your interest and ability
 - GitOps Subreddit: <https://www.reddit.com/r/GitOps/>
 - Twitter: <https://twitter.com/gitopswg>
 - Express your interest: [interested-parties.md](./interested-parties.md)
