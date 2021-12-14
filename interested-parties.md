@@ -98,3 +98,4 @@ Weaveworks | Lucas Käldström
 Workday | Adrian Smith
 &nbsp; | Lloyd Chang
 &nbsp; | Tim Sina
+Capgemini | Pratap Sisodia
